@@ -1,3 +1,6 @@
+# coffee-script (http://coffeescript.org)
+alias coffeewatch="coffee -o ./ -cw ./"
+
 # sass (http://sass-lang.com/)
 alias sasswatch="sass --sourcemap=none --watch ./:./"
 
