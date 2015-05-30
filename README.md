@@ -1,5 +1,7 @@
 # dotfiles
 
+> @neogeek's dotfiles
+
 ## Installation
 
 ```bash
