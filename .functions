@@ -21,7 +21,7 @@ nodejs-project-builder() {
 rhash() {
 
     PASS="$(echo -n "$(date)""${RANDOM}" | shasum -a 256)"
-    PASS="${PASS:0:${#PASS}-2}"
+    PASS="${PASS:0:${#PASS}-3}"
     echo "${PASS}"
     echo -n "${PASS}" | pbcopy
 
