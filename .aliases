@@ -1,8 +1,8 @@
 # coffee-script (http://coffeescript.org)
 alias coffeewatch="coffee -o ./ -cw ./"
 
-# sass (http://sass-lang.com/)
-alias sasswatch="sass --sourcemap=none --watch ./:./"
-
 # Python Server (https://docs.python.org/2/library/simplehttpserver.html)
 alias pyserver="python -m SimpleHTTPServer"
+
+# sass (http://sass-lang.com/)
+alias sasswatch="sass --sourcemap=none --watch ./:./"
