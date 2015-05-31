@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=`dirname ${BASH_SOURCE}`
+DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
 touch ~/.bash_profile
 
