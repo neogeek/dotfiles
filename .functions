@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Make alias only when source exists
 makealias() {
 

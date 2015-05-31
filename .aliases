@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # coffee-script (http://coffeescript.org)
 alias coffeewatch="coffee -o ./ -cw ./"
 

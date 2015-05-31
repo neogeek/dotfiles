@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DIR=$(dirname "${BASH_SOURCE}")
 
 export PATH="${DIR}/bin:${PATH}";
