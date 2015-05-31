@@ -15,6 +15,7 @@ brew install mongodb
 brew install node
 brew install phantomjs
 brew install redis
+brew install shellcheck
 brew install webkit2png
 
 brew cleanup

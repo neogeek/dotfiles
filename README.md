@@ -59,6 +59,7 @@ You can install and update brew and listed dependencies using the following comm
 - [node](https://nodejs.org)
 - [phantomjs](http://phantomjs.org)
 - [redis](http://redis.io)
+- [shellcheck](https://github.com/koalaman/shellcheck)
 - [webkit2png](http://www.paulhammond.org/webkit2png/)
 
 ```bash
