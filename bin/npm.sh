@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo chown -R $(whoami) ~/.npm
-sudo chown -R $(whoami) /usr/local/lib/node_modules
+sudo chown -R "$(whoami)" ~/.npm
+sudo chown -R "$(whoami)" /usr/local/lib/node_modules
 
 npm install -g bower
 npm install -g coffee-script

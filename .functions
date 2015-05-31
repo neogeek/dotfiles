@@ -1,8 +1,8 @@
 # Make alias only when source exists
 makealias() {
 
-    if [ -a $2 ]; then
-        alias $1=$2
+    if [ -a "$2" ]; then
+        alias "$1"="$2"
     fi
 
 }
@@ -11,8 +11,8 @@ makealias() {
 nodejs-project-builder() {
 
     curl -L https://github.com/neogeek/nodejs-starter-kit/archive/master.tar.gz | tar -xz
-    mv nodejs-starter-kit-master $1
-    cd $1
+    mv nodejs-starter-kit-master "$1"
+    cd "$1"
     npm install
 
 }
@@ -20,9 +20,9 @@ nodejs-project-builder() {
 # Random Hash
 rhash() {
 
-    PASS=`echo -n $(date)${RANDOM} | shasum -a 256`
-    PASS=`echo ${PASS:0:${#PASS}-2}`
-    echo ${PASS}
-    echo -n ${PASS} | pbcopy
+    PASS="$(echo -n "$(date)""${RANDOM}" | shasum -a 256)"
+    PASS="${PASS:0:${#PASS}-2}"
+    echo "${PASS}"
+    echo -n "${PASS}" | pbcopy
 
 }

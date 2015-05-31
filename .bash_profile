@@ -1,7 +1,7 @@
-DIR=`dirname ${BASH_SOURCE}`
+DIR=$(dirname "${BASH_SOURCE}")
 
-export PATH="$DIR/bin:$PATH";
+export PATH="${DIR}/bin:${PATH}";
 
-for file in ${DIR}/.{functions,theme,aliases,custom}; do
-    source $file
+for file in "${DIR}"/.{functions,theme,aliases,custom}; do
+    source "${file}"
 done
