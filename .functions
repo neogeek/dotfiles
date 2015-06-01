@@ -22,9 +22,9 @@ nodejs-project-builder() {
 # Random Hash
 rhash() {
 
-    PASS="$(echo -n "$(date)""${RANDOM}" | shasum -a 256)"
-    PASS="${PASS:0:${#PASS}-3}"
-    echo "${PASS}"
-    echo -n "${PASS}" | pbcopy
+    HASH="$(echo -n "$(date)""${RANDOM}" | shasum -a 256)"
+    HASH="${HASH:0:${#HASH}-3}"
+    echo "${HASH}"
+    echo -n "${HASH}" | pbcopy
 
 }
