@@ -1,0 +1,5 @@
+language: haskell
+install:
+   - cabal install shellcheck
+   - sudo ln ~/.cabal/bin/shellcheck /usr/bin/shellcheck
+script: make test
