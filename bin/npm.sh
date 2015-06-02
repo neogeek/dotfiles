@@ -1,7 +1,16 @@
 #!/bin/bash
 
-sudo chown -R "$(whoami)" ~/.npm
-sudo chown -R "$(whoami)" /usr/local/lib/node_modules
+for dir in {~/.npm,/usr/local/lib/node_modules}; do
+
+    if [ ! -O "$dir" ]; then
+
+        echo "Fixing file permissions on $dir"
+
+        sudo chown -R "$(whoami)" "$dir"
+
+    fi
+
+done
 
 npm install -g bower
 npm install -g coffee-script
