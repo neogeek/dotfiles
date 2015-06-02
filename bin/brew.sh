@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! hash brew &> /dev/null; then
+if ! brew -v &> /dev/null; then
 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
