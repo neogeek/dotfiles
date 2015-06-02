@@ -12,6 +12,20 @@ for dir in {~/.npm,/usr/local/lib/node_modules}; do
 
 done
 
+if [ ! -a ~/.nvm/nvm.sh ]; then
+
+    echo "Installing NVM"
+
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+
+fi
+
+source ~/.nvm/nvm.sh
+
+nvm install 0.10
+nvm install 0.12
+nvm use stable
+
 npm install -g bower
 npm install -g coffee-script
 npm install -g csslint
