@@ -55,6 +55,7 @@ $ sasswatch
 You can install and update brew and listed dependencies using the following command.
 
 - [heroku](https://toolbelt.heroku.com/standalone)
+- [imagemagick](http://www.imagemagick.org/script/index.php)
 - [mongodb](https://www.mongodb.org)
 - [node](https://nodejs.org)
 - [phantomjs](http://phantomjs.org)
