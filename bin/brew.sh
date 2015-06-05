@@ -12,6 +12,12 @@ brew update && brew doctor
 
 brew upgrade --all
 
+brew install caskroom/cask/brew-cask
+
+brew cask install virtualbox
+
+brew install boot2docker
+brew install docker
 brew install heroku
 brew install imagemagick
 brew install mongodb

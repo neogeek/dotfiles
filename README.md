@@ -54,6 +54,9 @@ $ sasswatch
 
 You can install and update brew and listed dependencies using the following command.
 
+- [cask](http://caskroom.io)
+- [boot2docker](http://boot2docker.io)
+- [docker](https://www.docker.com)
 - [heroku](https://toolbelt.heroku.com/standalone)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
 - [mongodb](https://www.mongodb.org)
