@@ -32,6 +32,7 @@ npm install -g csslint
 npm install -g doxdox
 npm install -g electron-prebuilt
 npm install -g grunt-cli
+npm install -g jshint
 npm install -g jslint
 npm install -g mailmake
 npm install -g mocha

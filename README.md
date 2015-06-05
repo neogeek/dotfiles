@@ -77,6 +77,7 @@ You can install and update npm listed dependencies using the following command.
 - [doxdox](http://doxdox.org)
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [grunt-cli](http://gruntjs.com)
+- [jshint](https://www.npmjs.com/package/jshint)
 - [jslint](https://www.npmjs.com/package/jslint)
 - [mailmake](https://github.com/neogeek/mailmake)
 - [mocha](http://mochajs.org)
