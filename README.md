@@ -70,6 +70,16 @@ You can install and update brew and listed dependencies using the following comm
 $ brew.sh
 ```
 
+#### Gem
+
+You can install and update gem listed dependencies using the following command.
+
+- [jekyll](http://jekyllrb.com)
+
+```bash
+$ gem.sh
+```
+
 #### NPM
 
 You can install and update npm listed dependencies using the following command.
