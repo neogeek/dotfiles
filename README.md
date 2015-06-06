@@ -86,6 +86,7 @@ $ gem.sh
 
 You can install and update npm listed dependencies using the following command.
 
+- [babel](https://babeljs.io)
 - [bower](http://bower.io)
 - [coffee-script](http://coffeescript.org)
 - [csslint](https://github.com/CSSLint/csslint)

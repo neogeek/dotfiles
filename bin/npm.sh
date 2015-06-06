@@ -46,6 +46,7 @@ npminstall () {
 
 }
 
+npminstall "babel"
 npminstall "bower"
 npminstall "coffee-script"
 npminstall "csslint"
