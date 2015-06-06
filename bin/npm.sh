@@ -24,16 +24,36 @@ source ~/.nvm/nvm.sh
 
 nvm install 0.10
 nvm install 0.12
-nvm use stable
+nvm use system
 
-npm install -g bower
-npm install -g coffee-script
-npm install -g csslint
-npm install -g doxdox
-npm install -g electron-prebuilt
-npm install -g grunt-cli
-npm install -g jshint
-npm install -g jslint
-npm install -g mailmake
-npm install -g mocha
-npm install -g nodemon
+NPMLISTCACHE=$(npm list -g --depth=0)
+
+npminstall () {
+
+    if ! echo "${NPMLISTCACHE}" | grep " ${1}@" &> /dev/null; then
+
+        npm install -g "$1"
+
+    else
+
+        echo -n "Updating $1 ... "
+
+        npm update -g "$1"
+
+        echo "Done"
+
+    fi
+
+}
+
+npminstall "bower"
+npminstall "coffee-script"
+npminstall "csslint"
+npminstall "doxdox"
+npminstall "electron-prebuilt"
+npminstall "grunt-cli"
+npminstall "jshint"
+npminstall "jslint"
+npminstall "mailmake"
+npminstall "mocha"
+npminstall "nodemon"
