@@ -93,6 +93,22 @@ $ npm.sh
 
 ### Functions
 
+#### hint
+
+Runs `jshint` on all `.js` files in the current folder.
+
+```bash
+$ hint
+```
+
+#### lint
+
+Runs `jslint` on all `.js` files in the current folder.
+
+```bash
+$ lint
+```
+
 #### makealias
 
 Make an alias to a file. Will only make the alias if supplied file exists.

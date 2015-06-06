@@ -1,5 +1,35 @@
 #!/bin/bash
 
+# Runs jshint on all .js files in the current folder.
+hint() {
+
+    if jshint -v &> /dev/null; then
+
+        find . -type f -name '*.js' ! \( -path "*node_modules/*" -or -path "*bower_components/*" \) -exec jshint {} \;
+
+    else
+
+        echo "jshint not found!"
+
+    fi
+
+}
+
+# Runs jslint on all .js files in the current folder.
+lint() {
+
+    if jslint --version &> /dev/null; then
+
+        find . -type f -name '*.js' ! \( -path "*node_modules/*" -or -path "*bower_components/*" \) -exec jslint {} \;
+
+    else
+
+        echo "jslint not found!"
+
+    fi
+
+}
+
 # Make alias only when source exists
 makealias() {
 
