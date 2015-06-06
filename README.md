@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/neogeek/dotfiles.svg?branch=master)](https://travis-ci.org/neogeek/dotfiles)
+
 # dotfiles
 
 > @neogeek's dotfiles
@@ -116,14 +118,6 @@ Runs `jslint` on all `.js` files in the current folder.
 
 ```bash
 $ lint
-```
-
-#### makealias
-
-Make an alias to a file. Will only make the alias if supplied file exists.
-
-```bash
-$ makealias <alias> <file>
 ```
 
 #### nodejs-project-builder

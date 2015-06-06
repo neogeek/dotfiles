@@ -30,15 +30,6 @@ lint() {
 
 }
 
-# Make alias only when source exists
-makealias() {
-
-    if [ -a "$2" ]; then
-        alias "$1"="$2"
-    fi
-
-}
-
 # Node.js Project Builder (https://github.com/neogeek/nodejs-starter-kit)
 nodejs-project-builder() {
 

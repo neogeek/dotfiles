@@ -3,10 +3,10 @@
 # Aliases
 
 ## doxdox (https://github.com/neogeek/doxdox)
-makealias doxdox-dev ~/git/github/doxdox/bin/doxdox
+alias doxdox-dev=~/git/github/doxdox/bin/doxdox
 
 ## mailmake (https://github.com/neogeek/mailmake)
-makealias mailmake-dev ~/git/github/mailmake/bin/mailmake
+alias mailmake-dev=~/git/github/mailmake/bin/mailmake
 
 ## respond2png (https://github.com/neogeek/respond2png)
-makealias respond2png-dev ~/git/github/respond2png/respond2png
+alias respond2png-dev=~/git/github/respond2png/respond2png
