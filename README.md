@@ -59,6 +59,7 @@ You can install and update brew and listed dependencies using the following comm
 - [docker](https://www.docker.com)
 - [heroku](https://toolbelt.heroku.com/standalone)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
+- [jekyll](http://jekyllrb.com)
 - [mongodb](https://www.mongodb.org)
 - [node](https://nodejs.org)
 - [phantomjs](http://phantomjs.org)
