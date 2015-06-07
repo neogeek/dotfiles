@@ -77,6 +77,7 @@ $ brew.sh
 You can install and update gem listed dependencies using the following command.
 
 - [jekyll](http://jekyllrb.com)
+- [travis](https://github.com/travis-ci/travis.rb)
 
 ```bash
 $ gem.sh
