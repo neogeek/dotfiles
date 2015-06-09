@@ -21,7 +21,6 @@ brew install docker
 brew install heroku
 brew install imagemagick
 brew install mongodb
-brew install node
 brew install phantomjs
 brew install redis
 brew install shellcheck
