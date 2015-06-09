@@ -12,6 +12,7 @@ brew install rbenv
 
 if ! grep -Fq "rbenv init -" ~/.bash_profile; then
 
+    #shellcheck disable=SC2016
     echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
 fi
