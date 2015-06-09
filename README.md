@@ -54,7 +54,7 @@ $ sasswatch
 
 #### Brew
 
-You can install and update brew and listed dependencies using the following command.
+You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
 - [cask](http://caskroom.io)
 - [boot2docker](http://boot2docker.io)
@@ -74,7 +74,7 @@ $ brew.sh
 
 #### Gem
 
-You can install and update gem listed dependencies using the following command.
+You can install and update [rbenv](https://github.com/sstephenson/rbenv) and listed dependencies using the following command.
 
 - [jekyll](http://jekyllrb.com)
 - [travis](https://github.com/travis-ci/travis.rb)
@@ -85,7 +85,7 @@ $ gem.sh
 
 #### NPM
 
-You can install and update npm listed dependencies using the following command.
+You can install and update [npm](https://www.npmjs.com) listed dependencies using the following command.
 
 - [babel](https://babeljs.io)
 - [bower](http://bower.io)
