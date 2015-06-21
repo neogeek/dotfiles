@@ -26,6 +26,14 @@ $ update.sh
 
 ### Aliases
 
+#### Directory Traversal
+
+Move up one directory.
+
+```bash
+$ ..
+```
+
 #### coffeewatch
 
 Watch for changes to `.coffee` files and compile them into the same directory.

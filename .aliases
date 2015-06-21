@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# directory traversal
+alias ..="cd ../"
+
 # coffee-script (http://coffeescript.org)
 alias coffeewatch="coffee -o ./ -cw ./"
 
