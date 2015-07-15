@@ -24,5 +24,7 @@ rbenv global 2.2.2
 
 gem update --system
 
+gem install bundler
+gem install cocoapods
 gem install jekyll
 gem install travis
