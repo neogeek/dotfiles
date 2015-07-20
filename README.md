@@ -68,11 +68,14 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [boot2docker](http://boot2docker.io)
 - [docker](https://www.docker.com)
 - [heroku](https://toolbelt.heroku.com/standalone)
+- [flow](http://flowtype.org)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
+- [iojs](https://iojs.org/en/index.html)
 - [mongodb](https://www.mongodb.org)
 - [phantomjs](http://phantomjs.org)
 - [redis](http://redis.io)
 - [shellcheck](https://github.com/koalaman/shellcheck)
+- [watchman](https://facebook.github.io/watchman)
 - [webkit2png](http://www.paulhammond.org/webkit2png/)
 
 ```bash
@@ -108,6 +111,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [mailmake](https://github.com/neogeek/mailmake)
 - [mocha](http://mochajs.org)
 - [nodemon](https://github.com/remy/nodemon)
+- [react-native-cli](http://facebook.github.io/react-native)
 
 ```bash
 $ npm.sh
