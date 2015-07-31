@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Theme
-PS1="\[\e[0;32m\]\u\[\e[m\]:\[\e[0;34m\]\w\[\e[m\]\$ \[\e[m\]"
+PS1="\[$(tput setaf 0)\]\$(date +%k:%M)\[$(tput sgr0)\] \u:\[$(tput setaf 3)\]\w \[$(tput sgr0)\]\[$(tput sgr0)\]"

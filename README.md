@@ -4,7 +4,7 @@
 
 > @neogeek's dotfiles
 
-![](http://i.imgur.com/Ght2rMp.png)
+![](screenshot.png)
 
 ## Installation
 
