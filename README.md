@@ -69,7 +69,7 @@ $ git b
 #### Remotes
 
 ```bash
-$ git f
+$ git r
 ```
 
 ### Scripts
