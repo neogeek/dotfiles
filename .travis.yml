@@ -1,6 +1,7 @@
 language: haskell
 install:
    - cabal install shellcheck
-   - ln ~/.cabal/bin/shellcheck /usr/bin/shellcheck
+before_script:
+   - export PATH=$PATH:~/.cabal/bin/
 script: make test
 sudo: false
