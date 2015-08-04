@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git config --global alias.b "branch -vv"
+git config --global format.pretty "%C(yellow)%h%C(reset) %s"
