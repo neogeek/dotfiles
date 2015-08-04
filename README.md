@@ -24,7 +24,7 @@ $ update.sh
 
 ## Commands
 
-### Aliases
+### CLI Aliases
 
 #### Directory Traversal
 
@@ -56,6 +56,20 @@ Watch for changes to `.scss` files and compile them into the same directory.
 
 ```bash
 $ sasswatch
+```
+
+### Git Aliases
+
+#### Branches
+
+```bash
+$ git b
+```
+
+#### Remotes
+
+```bash
+$ git f
 ```
 
 ### Scripts
