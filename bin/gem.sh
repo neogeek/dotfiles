@@ -8,7 +8,7 @@ if ! brew -v &> /dev/null; then
 
 fi
 
-brew install rbenv
+brew install rbenv ruby-build
 
 if ! grep -Fq "rbenv init -" ~/.bash_profile; then
 
