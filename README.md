@@ -132,6 +132,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [mocha](http://mochajs.org)
 - [nodemon](https://github.com/remy/nodemon)
 - [react-native-cli](http://facebook.github.io/react-native)
+- [react-tools](http://facebook.github.io/react)
 
 ```bash
 $ npm.sh
