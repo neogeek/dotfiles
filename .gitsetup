@@ -1,5 +1,6 @@
 #!/bin/bash
 
 git config --global alias.b "branch -vv"
+git config --global alias.l "log"
 git config --global alias.r "remote -v"
 git config --global format.pretty "%C(yellow)%h%C(reset) %s"

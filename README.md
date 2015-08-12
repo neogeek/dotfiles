@@ -66,6 +66,12 @@ $ sasswatch
 $ git b
 ```
 
+#### Logs
+
+```bash
+$ git l
+```
+
 #### Remotes
 
 ```bash
