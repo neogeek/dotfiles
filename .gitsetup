@@ -6,3 +6,5 @@ git config --global alias.l "log --graph"
 git config --global alias.r "remote -v"
 
 git config --global format.pretty "%C(yellow)%h%C(reset) %s"
+
+git config --global color.branch.remote "white dim"
