@@ -26,6 +26,14 @@ $ update.sh
 
 ### CLI Aliases
 
+#### Directory Listing
+
+Show contents of current directory as a list with color.
+
+```bash
+$ ls
+```
+
 #### Directory Traversal
 
 Move up one directory.
@@ -66,7 +74,13 @@ $ sasswatch
 $ git b
 ```
 
-#### Logs
+#### Branches (including remote)
+
+```bash
+$ git bb
+```
+
+#### Logs (with graph)
 
 ```bash
 $ git l

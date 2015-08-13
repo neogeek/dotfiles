@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# directory listing
+alias ls="command ls -lG"
+
 # directory traversal
 alias ..="cd ../"
 
@@ -10,4 +13,4 @@ alias coffeewatch="coffee -o ./ -cw ./"
 alias pyserver="python -m SimpleHTTPServer"
 
 # sass (http://sass-lang.com/)
-alias sasswatch="sass --sourcemap=none --watch ./:./"
+alias sasswatch="sass --sourcemap=none --style expanded --watch ./:./"
