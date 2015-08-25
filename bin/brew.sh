@@ -24,6 +24,7 @@ brew install imagemagick
 brew install iojs && brew link iojs --force
 brew install mongodb
 brew install phantomjs
+brew install postgres
 brew install redis
 brew install shellcheck
 brew install watchman

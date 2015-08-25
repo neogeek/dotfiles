@@ -107,6 +107,7 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [iojs](https://iojs.org/en/index.html)
 - [mongodb](https://www.mongodb.org)
 - [phantomjs](http://phantomjs.org)
+- [postgres](http://www.postgresql.org)
 - [redis](http://redis.io)
 - [shellcheck](https://github.com/koalaman/shellcheck)
 - [watchman](https://facebook.github.io/watchman)
