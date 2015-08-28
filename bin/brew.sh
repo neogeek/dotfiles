@@ -21,7 +21,6 @@ brew install docker
 brew install heroku
 brew install flow
 brew install imagemagick
-brew install iojs && brew link iojs --force
 brew install mongodb
 brew install phantomjs
 brew install postgres

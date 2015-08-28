@@ -104,7 +104,6 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [heroku](https://toolbelt.heroku.com/standalone)
 - [flow](http://flowtype.org)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
-- [iojs](https://iojs.org/en/index.html)
 - [mongodb](https://www.mongodb.org)
 - [phantomjs](http://phantomjs.org)
 - [postgres](http://www.postgresql.org)
