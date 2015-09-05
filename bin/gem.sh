@@ -26,5 +26,6 @@ gem update --system
 
 gem install bundler
 gem install cocoapods
+gem install foreman
 gem install jekyll
 gem install travis

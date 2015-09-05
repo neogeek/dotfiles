@@ -122,6 +122,7 @@ You can install and update [rbenv](https://github.com/sstephenson/rbenv) and lis
 
 - [bundler](http://bundler.io)
 - [cocoapods](https://cocoapods.org)
+- [foreman](http://ddollar.github.io/foreman/)
 - [jekyll](http://jekyllrb.com)
 - [travis](https://github.com/travis-ci/travis.rb)
 
@@ -147,6 +148,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [nodemon](https://github.com/remy/nodemon)
 - [react-native-cli](http://facebook.github.io/react-native)
 - [react-tools](http://facebook.github.io/react)
+- [svgo](https://github.com/svg/svgo)
 
 ```bash
 $ npm.sh
