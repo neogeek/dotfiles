@@ -24,9 +24,11 @@ source ~/.nvm/nvm.sh
 
 nvm install 0.10
 nvm install 0.12
+nvm install 4.1
 nvm use system
 
 NPMLISTCACHE=$(npm list -g --depth=0)
+NPMOUTDATEDCACHE=$(npm outdated -g --depth=0)
 
 npminstall () {
 
@@ -34,7 +36,7 @@ npminstall () {
 
         npm install -g "$1"
 
-    else
+    elif echo "${NPMOUTDATEDCACHE}" | grep "^${1}" &> /dev/null; then
 
         echo -n "Updating $1 ... "
 
