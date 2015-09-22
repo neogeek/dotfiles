@@ -8,4 +8,5 @@ echo -n "Updating dotfiles to latest ... "
 
 echo "Done"
 
+# shellcheck disable=SC1091
 (cd "${DIR}" && source bootstrap.sh)

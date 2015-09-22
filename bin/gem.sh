@@ -17,6 +17,7 @@ if ! grep -Fq "rbenv init -" ~/.bash_profile; then
 
 fi
 
+# shellcheck disable=SC1091
 source ~/.bash_profile
 
 rbenv install 2.2.2
