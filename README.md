@@ -136,6 +136,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 
 - [babel](https://babeljs.io)
 - [bower](http://bower.io)
+- [cloc](https://github.com/AlDanial/cloc)
 - [coffee-script](http://coffeescript.org)
 - [csslint](https://github.com/CSSLint/csslint)
 - [doxdox](http://doxdox.org)
@@ -146,6 +147,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [mailmake](https://github.com/neogeek/mailmake)
 - [mocha](http://mochajs.org)
 - [nodemon](https://github.com/remy/nodemon)
+- [pm2](https://github.com/Unitech/pm2)
 - [react-native-cli](http://facebook.github.io/react-native)
 - [react-tools](http://facebook.github.io/react)
 - [svgo](https://github.com/svg/svgo)
