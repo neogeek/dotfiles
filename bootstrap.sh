@@ -12,4 +12,5 @@ echo "source ${DIR}/.bash_profile #dotfiles" >> ~/.bash_profile
 
 echo "Done"
 
+# shellcheck disable=SC1091
 source ~/.bash_profile

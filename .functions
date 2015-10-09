@@ -35,7 +35,7 @@ nodejs-project-builder() {
 
     curl -L https://github.com/neogeek/nodejs-starter-kit/archive/master.tar.gz | tar -xz
     mv nodejs-starter-kit-master "$1"
-    cd "$1"
+    cd "$1" || exit
     npm install
 
 }
