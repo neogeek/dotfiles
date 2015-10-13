@@ -26,6 +26,7 @@ source ~/.nvm/nvm.sh
 nvm install 0.10
 nvm install 0.12
 nvm install 4.1
+nvm install 4.2
 nvm use system
 
 NPMLISTCACHE=$(npm list -g --depth=0)
