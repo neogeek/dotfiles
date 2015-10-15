@@ -8,3 +8,10 @@ git config --global alias.r "remote -v"
 git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset) %an: %s"
 
 git config --global color.branch.remote "white dim"
+
+if [ -f "${DIR}/vendor/git-completion.bash" ]; then
+
+    # shellcheck source=/dev/null
+    source "${DIR}/vendor/git-completion.bash"
+
+fi
