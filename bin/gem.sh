@@ -20,8 +20,12 @@ fi
 # shellcheck disable=SC1091
 source ~/.bash_profile
 
-rbenv install 2.2.3
-rbenv global 2.2.3
+if ! grep "2.2.3" <<< "$(rbenv version)"; then
+
+    rbenv install 2.2.3
+    rbenv global 2.2.3
+
+fi
 
 gem update --system
 
