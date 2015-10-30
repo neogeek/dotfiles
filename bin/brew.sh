@@ -15,9 +15,8 @@ brew upgrade --all
 brew install caskroom/cask/brew-cask
 
 brew cask install virtualbox
+brew cask install dockertoolbox
 
-brew install boot2docker
-brew install docker
 brew install heroku
 brew install flow
 brew install imagemagick
