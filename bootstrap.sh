@@ -4,11 +4,12 @@ DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
 # Install Git Autocomplete
 
-echo -n "Installing git autocomplete ... "
+echo -n "Installing git plugins ... "
 
 mkdir -p "${DIR}/vendor/"
 
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o "${DIR}/vendor/git-completion.bash" &> /dev/null
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o "${DIR}/vendor/git-prompt.bash" &> /dev/null
 
 echo "Done"
 

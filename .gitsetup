@@ -9,9 +9,9 @@ git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset)
 
 git config --global color.branch.remote "white dim"
 
-if [ -f "${DIR}/vendor/git-completion.bash" ]; then
+for file in "${DIR}"/vendor/git-*.bash; do
 
     # shellcheck source=/dev/null
-    source "${DIR}/vendor/git-completion.bash"
+    source "${file}"
 
-fi
+done
