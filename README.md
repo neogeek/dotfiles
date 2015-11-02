@@ -138,6 +138,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [cloc](https://github.com/AlDanial/cloc)
 - [coffee-script](http://coffeescript.org)
 - [csslint](https://github.com/CSSLint/csslint)
+- [divshot-cli](https://divshot.com/)
 - [doxdox](http://doxdox.org)
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [grunt-cli](http://gruntjs.com)
