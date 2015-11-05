@@ -141,6 +141,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [divshot-cli](https://divshot.com/)
 - [doxdox](http://doxdox.org)
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
+- [firebase-tools](https://www.firebase.com/)
 - [grunt-cli](http://gruntjs.com)
 - [jshint](https://www.npmjs.com/package/jshint)
 - [jslint](https://www.npmjs.com/package/jslint)
