@@ -16,7 +16,7 @@ if [ ! -a ~/.nvm/nvm.sh ]; then
 
     echo "Installing NVM"
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 
 fi
 
@@ -25,9 +25,8 @@ source ~/.nvm/nvm.sh
 
 nvm install 0.10
 nvm install 0.12
-nvm install 4.1
-nvm install 4.2
-nvm install 5.0
+nvm install 4
+nvm install 5
 nvm use system
 
 NPMLISTCACHE=$(npm list -g --depth=0)
