@@ -50,12 +50,10 @@ npminstall () {
 
 }
 
-npminstall "babel-cli"
 npminstall "bower"
 npminstall "cloc"
 npminstall "coffee-script"
 npminstall "csslint"
-npminstall "divshot-cli"
 npminstall "doxdox"
 npminstall "electron-prebuilt"
 npminstall "firebase-tools"

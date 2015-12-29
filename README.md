@@ -133,12 +133,10 @@ $ gem.sh
 
 You can install and update [npm](https://www.npmjs.com) listed dependencies using the following command.
 
-- [babel-cli](https://babeljs.io)
 - [bower](http://bower.io)
 - [cloc](https://github.com/AlDanial/cloc)
 - [coffee-script](http://coffeescript.org)
 - [csslint](https://github.com/CSSLint/csslint)
-- [divshot-cli](https://divshot.com/)
 - [doxdox](http://doxdox.org)
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [firebase-tools](https://www.firebase.com/)
