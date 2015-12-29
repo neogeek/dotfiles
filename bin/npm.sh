@@ -42,7 +42,7 @@ npminstall () {
 
         echo -n "Updating $1 ... "
 
-        npm update -g "$1"
+        npm install -g "$1"
 
         echo "Done"
 
