@@ -2,7 +2,7 @@
 
 for dir in {~/.npm,/usr/local/lib/node_modules}; do
 
-    if [ ! -O "$dir" ]; then
+    if [ ! -w "$dir" ]; then
 
         echo "Fixing file permissions on $dir"
 
