@@ -50,6 +50,8 @@ npminstall () {
 
 }
 
+npm -g install npm@latest
+
 npminstall "bower"
 npminstall "cloc"
 npminstall "coffee-script"
