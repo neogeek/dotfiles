@@ -20,7 +20,7 @@ if [ ! -a ~/.nvm/nvm.sh ]; then
 
 fi
 
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
 nvm install 0.10

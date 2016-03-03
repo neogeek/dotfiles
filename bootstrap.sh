@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
+DIR=$(cd "$(dirname "${BASH_SOURCE[@]}")" && pwd)
 
 # Install Git Autocomplete
 
@@ -25,5 +25,5 @@ echo "source ${DIR}/.bash_profile #dotfiles" >> ~/.bash_profile
 
 echo "Done"
 
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090
 source ~/.bash_profile

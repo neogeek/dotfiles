@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(dirname "${BASH_SOURCE}")
+DIR=$(dirname "${BASH_SOURCE[@]}")
 
 export PATH="${DIR}/bin:${PATH}";
 

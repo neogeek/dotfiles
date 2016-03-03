@@ -17,7 +17,7 @@ if ! grep -Fq "rbenv init -" ~/.bash_profile; then
 
 fi
 
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090
 source ~/.bash_profile
 
 if ! grep "2.3.0" <<< "$(rbenv version)"; then

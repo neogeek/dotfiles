@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$(cd "$(dirname "${BASH_SOURCE}")" && cd ../ && pwd)
+DIR=$(cd "$(dirname "${BASH_SOURCE[@]}")" && cd ../ && pwd)
 
 echo -n "Updating dotfiles to latest ... "
 
