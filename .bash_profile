@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR=$(dirname "${BASH_SOURCE[@]}")
+# shellcheck disable=SC2128
+DIR=$(dirname "${BASH_SOURCE}")
 
 export PATH="${DIR}/bin:${PATH}";
 

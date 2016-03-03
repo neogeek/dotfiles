@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR=$(cd "$(dirname "${BASH_SOURCE[@]}")" && pwd)
+# shellcheck disable=SC2128
+DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
 # Install Git Autocomplete
 
