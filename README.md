@@ -156,6 +156,14 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 $ npm.sh
 ```
 
+#### OS X
+
+You can set common default OS X preferences with the following command.
+
+```bash
+$ osx.sh
+```
+
 ### Functions
 
 #### hint
