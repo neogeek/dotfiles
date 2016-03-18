@@ -31,4 +31,5 @@ brew install shellcheck
 brew install watchman
 brew install webkit2png
 
+brew prune
 brew cleanup
