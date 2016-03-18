@@ -8,6 +8,8 @@ if ! brew -v &> /dev/null; then
 
 fi
 
+sudo -v
+
 brew update && brew doctor
 
 brew upgrade --all
