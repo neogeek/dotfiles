@@ -20,6 +20,7 @@ brew cask install dockertoolbox
 brew cask install virtualbox
 
 brew install flow
+brew install ghostscript
 brew install git && brew link --overwrite git
 brew install heroku
 brew install imagemagick
