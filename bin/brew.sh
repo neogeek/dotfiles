@@ -24,6 +24,7 @@ brew install ghostscript
 brew install git && brew link --overwrite git
 brew install heroku
 brew install imagemagick
+brew install highlight
 brew install mongodb
 brew install phantomjs
 brew install postgres

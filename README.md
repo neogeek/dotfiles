@@ -66,6 +66,14 @@ Watch for changes to `.scss` files and compile them into the same directory.
 $ sasswatch
 ```
 
+#### code highlight
+
+Take the current contents of the clipboard and run it through a syntax highlighter.
+
+```bash
+$ codehighlight
+```
+
 ### Git Aliases
 
 #### Branches
@@ -102,6 +110,7 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [dockertoolbox](https://www.docker.com/products/docker-toolbox)
 - [flow](http://flowtype.org)
 - [heroku](https://toolbelt.heroku.com/standalone)
+- [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
 - [mongodb](https://www.mongodb.org)
 - [phantomjs](http://phantomjs.org)

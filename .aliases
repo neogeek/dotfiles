@@ -14,3 +14,6 @@ alias pyserver="python -m SimpleHTTPServer"
 
 # sass (http://sass-lang.com/)
 alias sasswatch="sass --sourcemap=none --style expanded --watch ./:./"
+
+# code highlight
+alias codehighlight="pbpaste | highlight --syntax=js -O rtf --style moria | pbcopy"
