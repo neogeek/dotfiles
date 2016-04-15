@@ -21,6 +21,7 @@ brew cask install virtualbox
 
 brew install flow
 brew install git && brew link --overwrite git
+brew install gpg gpg-agent pinentry-mac
 brew install heroku
 brew install highlight
 brew install imagemagick ghostscript

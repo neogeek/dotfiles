@@ -9,6 +9,8 @@ git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset)
 
 git config --global color.branch.remote "white dim"
 
+git config --global commit.gpgsign true
+
 for file in "${DIR}"/vendor/git-*.bash; do
 
     # shellcheck source=/dev/null
