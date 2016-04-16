@@ -1,14 +1,18 @@
 #!/bin/bash
 
-if test -f ~/.gnupg/.gpg-agent-info -a -n "$(pgrep gpg-agent)"; then
+if [ -d ~/.gnupg/ ]; then
 
-    # shellcheck source=/dev/null
-    source ~/.gnupg/.gpg-agent-info
-    
-    export GPG_AGENT_INFO
+    if test -f ~/.gnupg/.gpg-agent-info -a -n "$(pgrep gpg-agent)"; then
 
-else
+        # shellcheck source=/dev/null
+        source ~/.gnupg/.gpg-agent-info
+        
+        export GPG_AGENT_INFO
 
-    eval "$(gpg-agent --daemon --write-env-file ~/.gnupg/.gpg-agent-info)"
+    else
+
+        eval "$(gpg-agent --daemon --write-env-file ~/.gnupg/.gpg-agent-info)"
+
+    fi
 
 fi
