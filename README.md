@@ -42,14 +42,6 @@ Move up one directory.
 $ ..
 ```
 
-#### coffeewatch
-
-Watch for changes to `.coffee` files and compile them into the same directory.
-
-```bash
-$ coffeewatch
-```
-
 #### pyserver
 
 Run a python server with the static files in the current directory. Port defaults to 8000.
@@ -147,7 +139,6 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 
 - [bower](http://bower.io)
 - [cloc](https://github.com/AlDanial/cloc)
-- [coffee-script](http://coffeescript.org)
 - [csslint](https://github.com/CSSLint/csslint)
 - [doxdox](http://doxdox.org)
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)

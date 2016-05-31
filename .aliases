@@ -6,9 +6,6 @@ alias ls="command ls -lG"
 # directory traversal
 alias ..="cd ../"
 
-# coffee-script (http://coffeescript.org)
-alias coffeewatch="coffee -o ./ -cw ./"
-
 # Python Server (https://docs.python.org/2/library/simplehttpserver.html)
 alias pyserver="python -m SimpleHTTPServer"
 
