@@ -45,7 +45,12 @@ defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
 # Other
 
-# Disable default iTunes behavior with media keys in OSX.
+## Disable default iTunes behavior with media keys in OSX.
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist &> /dev/null
+
+## Remove Shadow from OS X Screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+killall SystemUIServer
 
 echo "Done"
