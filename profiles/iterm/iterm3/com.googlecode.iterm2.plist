@@ -73,9 +73,9 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 197 606 456 0 0 1440 877 </string>
+	<string>269 313 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>367 408 591 218 0 0 1440 877 </string>
+	<string>0 426 1440 451 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1367,9 +1367,13 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>486481409.86992598</real>
 	<key>OnlyWhenMoreTabs</key>
+	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict>
@@ -1406,6 +1410,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/scott/git/github/dotfiles/profiles/iterm/iterm3</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1417,7 +1423,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-01T13:45:58Z</date>
+	<date>2016-06-15T14:37:53Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
