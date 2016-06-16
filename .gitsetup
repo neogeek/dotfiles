@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PATH="${DIR}/vendor:${PATH}";
+
 git config --global alias.b "branch -vv"
 git config --global alias.bb "branch -vv -a"
 git config --global alias.l "log --graph"
@@ -11,6 +13,10 @@ git config --global color.branch.remote "white dim"
 
 git config --global commit.gpgsign true
 git config --global gpg.program /usr/local/bin/gpg
+
+git config --global pager.log "diff-highlight | less"
+git config --global pager.show "diff-highlight | less"
+git config --global pager.diff "diff-highlight | less"
 
 sed -ie "/no-tty/d" ~/.gnupg/gpg.conf
 
