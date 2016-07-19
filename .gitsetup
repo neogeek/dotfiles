@@ -7,6 +7,8 @@ git config --global alias.bb "branch -vv -a"
 git config --global alias.l "log --graph"
 git config --global alias.r "remote -v"
 
+git config --global push.default current
+
 git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset) %an: %s"
 
 git config --global color.branch.remote "white dim"
