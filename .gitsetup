@@ -13,24 +13,9 @@ git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset)
 
 git config --global color.branch.remote "white dim"
 
-if hash gpg &> /dev/null; then
-
-    git config --global commit.gpgsign true
-    git config --global gpg.program /usr/local/bin/gpg
-
-fi
-
 git config --global pager.log "diff-highlight | less"
 git config --global pager.show "diff-highlight | less"
 git config --global pager.diff "diff-highlight | less"
-
-if [ -d ~/.gnupg/ ]; then
-
-    sed -ie "/no-tty/d" ~/.gnupg/gpg.conf
-
-    echo "no-tty" >> ~/.gnupg/gpg.conf
-
-fi
 
 for file in "${DIR}"/vendor/git-*.bash; do
 
