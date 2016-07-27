@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for dir in {~/.npm,/usr/local/lib/node_modules}; do
+for dir in {~/.npm,/usr/local/bin,/usr/local/lib/node_modules}; do
 
     if [ ! -w "$dir" ]; then
 
@@ -51,6 +51,7 @@ npminstall () {
 
 }
 
+npm config set prefix ~/npm
 npm config set save=true
 npm config set save-exact=true
 
