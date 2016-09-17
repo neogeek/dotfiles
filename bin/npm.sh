@@ -28,7 +28,7 @@ nvm install 0.12
 nvm install 4
 nvm install 5
 nvm install 6
-nvm use system
+nvm alias default system
 
 NPMLISTCACHE=$(npm list -g --depth=0)
 NPMOUTDATEDCACHE=$(npm outdated -g --depth=0)
