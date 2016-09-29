@@ -14,7 +14,7 @@ brew update && brew doctor
 
 brew upgrade --all
 
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 brew cask install dockertoolbox
 brew cask install virtualbox
