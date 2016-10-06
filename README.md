@@ -137,7 +137,6 @@ $ gem.sh
 
 You can install and update [npm](https://www.npmjs.com) listed dependencies using the following command.
 
-- [bower](http://bower.io)
 - [cloc](https://github.com/AlDanial/cloc)
 - [csslint](https://github.com/CSSLint/csslint)
 - [doxdox](http://doxdox.org)
