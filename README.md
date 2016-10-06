@@ -144,6 +144,7 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [eslint](http://eslint.org/)
 - [firebase-tools](https://www.firebase.com/)
+- [greenkeeper](https://greenkeeper.io/)
 - [grunt-cli](http://gruntjs.com)
 - [jshint](https://www.npmjs.com/package/jshint)
 - [jslint](https://www.npmjs.com/package/jslint)
