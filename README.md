@@ -188,6 +188,14 @@ Runs `jslint` on all `.js` files in the current folder.
 $ lint
 ```
 
+#### mkdir
+
+Creates directories recursively and navigates to the directory created.
+
+```bash
+$ mkdir test
+```
+
 #### nodejs-project-builder
 
 Make a new Node.js project using the repo located at <https://github.com/neogeek/nodejs-starter-kit>.
