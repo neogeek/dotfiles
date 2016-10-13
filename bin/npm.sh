@@ -52,6 +52,7 @@ npminstall () {
 npm config set prefix ~/npm
 npm config set save=true
 npm config set save-exact=true
+npm config set progress=true
 
 npm -g install npm@latest
 
