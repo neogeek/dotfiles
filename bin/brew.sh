@@ -16,7 +16,7 @@ brew upgrade --all
 
 brew tap caskroom/cask
 
-brew cask install dockertoolbox
+brew cask install docker-toolbox
 brew cask install virtualbox
 
 brew install flow
