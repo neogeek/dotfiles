@@ -10,9 +10,11 @@ fi
 
 sudo -v
 
+export HOMEBREW_CASK_OPTS="--caskroom=/opt/homebrew-cask/Caskroom"
+
 brew update && brew doctor
 
-brew upgrade --all
+brew upgrade
 
 brew tap caskroom/cask
 
