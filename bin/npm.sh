@@ -60,7 +60,6 @@ npm -g install npm@latest
 npminstall "cloc"
 npminstall "csslint"
 npminstall "doxdox"
-npminstall "electron-prebuilt"
 npminstall "eslint"
 npminstall "firebase-tools"
 npminstall "greenkeeper"

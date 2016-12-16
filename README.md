@@ -140,7 +140,6 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [cloc](https://github.com/AlDanial/cloc)
 - [csslint](https://github.com/CSSLint/csslint)
 - [doxdox](http://doxdox.org)
-- [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt)
 - [eslint](http://eslint.org/)
 - [firebase-tools](https://www.firebase.com/)
 - [greenkeeper](https://greenkeeper.io/)
