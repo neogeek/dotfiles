@@ -98,6 +98,7 @@ $ git r
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
+- [asciinema](https://asciinema.org)
 - [cask](http://caskroom.io)
 - [dockertoolbox](https://www.docker.com/products/docker-toolbox)
 - [flow](http://flowtype.org)
