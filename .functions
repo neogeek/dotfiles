@@ -51,3 +51,14 @@ rhash() {
     echo -n "${HASH}" | pbcopy
 
 }
+
+# Setup Unity Project with .gitignore
+
+setupunity() {
+
+    git init
+    curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
+    git add .
+    git commit -m "Initial commit."
+
+}

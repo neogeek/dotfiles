@@ -42,7 +42,7 @@ Move up one directory.
 $ ..
 ```
 
-#### pyserver
+#### Simple HTTP Server
 
 Run a python server with the static files in the current directory. Port defaults to 8000.
 
@@ -50,7 +50,7 @@ Run a python server with the static files in the current directory. Port default
 $ pyserver <port>
 ```
 
-#### sasswatch
+#### Sass Watch
 
 Watch for changes to `.scss` files and compile them into the same directory.
 
@@ -58,12 +58,18 @@ Watch for changes to `.scss` files and compile them into the same directory.
 $ sasswatch
 ```
 
-#### code highlight
+#### Code Highlight
 
 Take the current contents of the clipboard and run it through a syntax highlighter.
 
 ```bash
 $ codehighlight
+```
+
+#### Delete node_modules/ and reinstall packages
+
+```bash
+$ npmplease
 ```
 
 ### Git Aliases
@@ -202,4 +208,12 @@ Generate a random hash using `shasum -a 256`.
 
 ```bash
 $ rhash
+```
+
+#### Setup Unity Project with .gitignore
+
+Initializes a new git project with a Unity specific [.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore)
+
+```bash
+$ setupunity
 ```
