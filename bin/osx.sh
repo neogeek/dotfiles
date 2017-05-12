@@ -10,6 +10,10 @@ echo -n "Changing OS X specific settings ... "
 
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
+### Disable Window Animations
+
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
 ## Keyboard
 
 ### Shortcuts
