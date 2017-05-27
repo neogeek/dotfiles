@@ -8,6 +8,7 @@ git config --global alias.l "log --graph"
 git config --global alias.r "remote -v"
 
 git config --global core.ignorecase false
+git config --global core.excludesfile "${DIR}"/.gitignore_custom
 
 git config --global push.default current
 
