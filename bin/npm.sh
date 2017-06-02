@@ -23,10 +23,10 @@ fi
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
-nvm install 4
 nvm install 5
 nvm install 6
 nvm install 7
+nvm install 8
 nvm alias default system
 
 NPMLISTCACHE=$(npm list -g --depth=0)
