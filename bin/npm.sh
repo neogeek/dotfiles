@@ -56,17 +56,12 @@ npm config set progress=true
 
 npm -g install npm@latest
 
-npminstall "cloc"
-npminstall "csslint"
 npminstall "doxdox"
 npminstall "eslint"
 npminstall "firebase-tools"
-npminstall "greenkeeper"
-npminstall "grunt-cli"
 npminstall "mailmake"
 npminstall "mocha"
 npminstall "nodemon"
-npminstall "nsp"
 npminstall "pm2"
 npminstall "react-native-cli"
 npminstall "react-tools"
