@@ -131,10 +131,8 @@ $ brew.sh
 You can install and update [rbenv](https://github.com/sstephenson/rbenv) and listed dependencies using the following command.
 
 - [bundler](http://bundler.io)
-- [cocoapods](https://cocoapods.org)
 - [foreman](http://ddollar.github.io/foreman/)
 - [jekyll](http://jekyllrb.com)
-- [travis](https://github.com/travis-ci/travis.rb)
 
 ```bash
 $ gem.sh
