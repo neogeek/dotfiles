@@ -106,7 +106,6 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 
 - [asciinema](https://asciinema.org)
 - [cask](http://caskroom.io)
-- [dockertoolbox](https://www.docker.com/products/docker-toolbox)
 - [git](https://git-scm.com/)
 - [gpg](https://help.github.com/categories/gpg/)
 - [heroku](https://toolbelt.heroku.com/standalone)
@@ -117,12 +116,31 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [postgres](http://www.postgresql.org)
 - [redis](http://redis.io)
 - [shellcheck](https://github.com/koalaman/shellcheck)
-- [virtualbox](https://www.virtualbox.org/)
 - [watchman](https://facebook.github.io/watchman)
 - [webkit2png](http://www.paulhammond.org/webkit2png/)
 
 ```bash
 $ brew.sh
+```
+
+#### Cask
+
+- [atom](https://atom.io/)
+- [dash](https://kapeli.com/dash)
+- [docker-toolbox](https://www.docker.com/products/docker-toolbox)
+- [dropbox](https://www.dropbox.com/)
+- [firefox](https://www.mozilla.org/en-US/firefox/)
+- [fontbase](http://fontba.se/)
+- [google-chrome](https://www.google.com/chrome/)
+- [iterm2](https://www.iterm2.com/)
+- [sketch](https://www.sketchapp.com/)
+- [spotify](https://www.spotify.com/us/)
+- [steam](http://store.steampowered.com/)
+- [virtualbox](https://www.virtualbox.org/)
+- [visual-studio-code](https://code.visualstudio.com/)
+
+```bash
+$ cask.sh
 ```
 
 #### Gem

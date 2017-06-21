@@ -14,11 +14,6 @@ brew update && brew doctor
 
 brew upgrade
 
-brew tap caskroom/cask
-
-brew cask install docker-toolbox
-brew cask install virtualbox
-
 brew install asciinema
 brew install git && brew link --overwrite git
 brew install heroku
