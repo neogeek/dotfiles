@@ -23,7 +23,6 @@ fi
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
-nvm install 5
 nvm install 6
 nvm install 7
 nvm install 8
