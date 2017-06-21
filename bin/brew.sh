@@ -22,7 +22,6 @@ brew cask install docker-toolbox
 brew cask install virtualbox
 
 brew install asciinema
-brew install flow
 brew install git && brew link --overwrite git
 brew install heroku
 brew install highlight

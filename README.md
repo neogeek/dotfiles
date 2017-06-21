@@ -107,7 +107,6 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [asciinema](https://asciinema.org)
 - [cask](http://caskroom.io)
 - [dockertoolbox](https://www.docker.com/products/docker-toolbox)
-- [flow](http://flowtype.org)
 - [git](https://git-scm.com/)
 - [gpg](https://help.github.com/categories/gpg/)
 - [heroku](https://toolbelt.heroku.com/standalone)
