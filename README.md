@@ -125,14 +125,15 @@ $ brew.sh
 
 #### Cask
 
-- [atom](https://atom.io/)
+- [alfred](https://www.alfredapp.com/)
 - [dash](https://kapeli.com/dash)
-- [docker-toolbox](https://www.docker.com/products/docker-toolbox)
 - [dropbox](https://www.dropbox.com/)
-- [firefox](https://www.mozilla.org/en-US/firefox/)
 - [fontbase](http://fontba.se/)
+- [github-desktop](https://desktop.github.com/)
 - [google-chrome](https://www.google.com/chrome/)
 - [iterm2](https://www.iterm2.com/)
+- [postgres](https://postgresapp.com/)
+- [postico](https://eggerapps.at/postico/)
 - [sketch](https://www.sketchapp.com/)
 - [spotify](https://www.spotify.com/us/)
 - [steam](http://store.steampowered.com/)
