@@ -10,8 +10,6 @@ fi
 
 brew tap caskroom/cask
 
-brew cask cleanup
-
 brew cask install alfred
 brew cask install dash
 brew cask install dropbox
@@ -26,3 +24,5 @@ brew cask install spotify
 brew cask install steam
 brew cask install virtualbox
 brew cask install visual-studio-code
+
+brew cask cleanup
