@@ -12,6 +12,7 @@ brew tap caskroom/cask
 
 brew cask install alfred
 brew cask install dash
+brew cask install discord
 brew cask install dropbox
 brew cask install fontbase
 brew cask install github-desktop
