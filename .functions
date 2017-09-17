@@ -1,12 +1,24 @@
 #!/bin/bash
 
-# Node.js Project Builder (https://github.com/neogeek/nodejs-starter-kit)
-nodejs-project-builder() {
+# Create Node.js Starter Kit (https://github.com/neogeek/nodejs-starter-kit)
+create-nodejs-starter-kit() {
 
     curl -L https://github.com/neogeek/nodejs-starter-kit/archive/master.tar.gz | tar -xz
     mkdir -p "${1}"
     mv nodejs-starter-kit-master/{*,.[^.]*} "${1}"
     rm -d nodejs-starter-kit-master
+    cd "${1}" || exit
+    npm install
+
+}
+
+# Create React.js Starter Kit (https://github.com/neogeek/reactjs-starter-kit)
+create-reactjs-starter-kit() {
+
+    curl -L https://github.com/neogeek/reactjs-starter-kit/archive/master.tar.gz | tar -xz
+    mkdir -p "${1}"
+    mv reactjs-starter-kit-master/{*,.[^.]*} "${1}"
+    rm -d reactjs-starter-kit-master
     cd "${1}" || exit
     npm install
 

@@ -189,12 +189,20 @@ $ osx.sh
 
 ### Functions
 
-#### nodejs-project-builder
+#### create-nodejs-starter-kit
 
 Make a new Node.js project using the repo located at <https://github.com/neogeek/nodejs-starter-kit>.
 
 ```bash
-$ nodejs-project-builder <name>
+$ create-nodejs-starter-kit <name>
+```
+
+#### create-reactjs-starter-kit
+
+Make a new React.js project using the repo located at <https://github.com/neogeek/reactjs-starter-kit>.
+
+```bash
+$ create-reactjs-starter-kit <name>
 ```
 
 #### rebuildspotlight
