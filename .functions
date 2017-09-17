@@ -23,7 +23,6 @@ rhash() {
 }
 
 # Setup Unity Project with .gitignore
-
 setupunity() {
 
     git init
