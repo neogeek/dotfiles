@@ -197,6 +197,14 @@ Make a new Node.js project using the repo located at <https://github.com/neogeek
 $ nodejs-project-builder <name>
 ```
 
+#### rebuildspotlight
+
+Rebuild Spotlight index
+
+```bash
+$ rebuildspotlight
+```
+
 #### rhash
 
 Generate a random hash using `shasum -a 256`.

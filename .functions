@@ -12,6 +12,13 @@ nodejs-project-builder() {
 
 }
 
+# Rebuild Spotlight index
+rebuildspotlight() {
+
+    sudo mdutil -a -i off && sudo mdutil -a -i on
+
+}
+
 # Random Hash
 rhash() {
 
