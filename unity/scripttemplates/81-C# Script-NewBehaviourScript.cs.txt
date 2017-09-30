@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class #SCRIPTNAME# : MonoBehaviour {
 
-    void Start () {
+    void Start() {
         #NOTRIM#
     }
 
-    void Update () {
+    void Update() {
         #NOTRIM#
     }
 
