@@ -214,6 +214,14 @@ Rebuild Spotlight index
 $ rebuildspotlight
 ```
 
+#### restarttouchbar
+
+Restarts the Mac Touchbar
+
+```bash
+$ restarttouchbar
+```
+
 #### rhash
 
 Generate a random hash using `shasum -a 256`.
