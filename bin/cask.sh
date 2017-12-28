@@ -17,6 +17,7 @@ brew cask install dropbox
 brew cask install fontbase
 brew cask install github-desktop
 brew cask install google-chrome
+brew cask install imageoptim
 brew cask install iterm2
 brew cask install postgres
 brew cask install postico
