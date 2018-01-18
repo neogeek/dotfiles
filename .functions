@@ -54,8 +54,8 @@ setupunity() {
 
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
-    git submodule add git@github.com:neogeek/CandyCoded.git Assets/CandyCoded/
     git add .
     git commit -m "Initial commit."
+    git submodule add git@github.com:neogeek/CandyCoded.git Assets/CandyCoded/
 
 }
