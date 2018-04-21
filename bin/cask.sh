@@ -9,6 +9,7 @@ if ! brew -v &> /dev/null; then
 fi
 
 brew tap caskroom/cask
+brew tap buo/cask-upgrade
 
 brew cask install alfred
 brew cask install dash
@@ -36,3 +37,5 @@ brew cask install virtualbox
 brew cask install visual-studio-code
 
 brew cask cleanup
+
+brew cu
