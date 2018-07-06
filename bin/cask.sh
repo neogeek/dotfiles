@@ -11,6 +11,7 @@ fi
 brew tap caskroom/cask
 brew tap buo/cask-upgrade
 
+brew cask install 1password
 brew cask install alfred
 brew cask install dash
 brew cask install discord
@@ -18,7 +19,7 @@ brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
 brew cask install fontbase
-brew cask install github-desktop
+brew cask install github
 brew cask install google-chrome
 brew cask install imageoptim
 brew cask install itch
@@ -34,6 +35,7 @@ brew cask install tunnelbear
 brew cask install twitch
 brew cask install unity-hub
 brew cask install virtualbox
+brew cask install visual-studio
 brew cask install visual-studio-code
 
 brew cask cleanup

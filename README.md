@@ -126,6 +126,7 @@ $ brew.sh
 
 #### Cask
 
+- [1password](https://www.1password.com/)
 - [alfred](https://www.alfredapp.com/)
 - [dash](https://kapeli.com/dash)
 - [discord](https://discordapp.com/)
@@ -133,7 +134,7 @@ $ brew.sh
 - [evernote](https://evernote.com/)
 - [firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [fontbase](http://fontba.se/)
-- [github-desktop](https://desktop.github.com/)
+- [github](https://desktop.github.com/)
 - [google-chrome](https://www.google.com/chrome/)
 - [imageoptim](https://imageoptim.com/mac)
 - [itch](https://itch.io/)
@@ -149,6 +150,7 @@ $ brew.sh
 - [twitch](https://www.twitch.tv/)
 - [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
 - [virtualbox](https://www.virtualbox.org/)
+- [visual-studio](https://visualstudio.com/)
 - [visual-studio-code](https://code.visualstudio.com/)
 
 ```bash
