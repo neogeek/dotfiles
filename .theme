@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Theme
-PS1="\[$(tput setaf 2)\]\$(date +%k:%M)\[$(tput sgr0)\] \u:\[$(tput setaf 3)\]\w\[$(tput sgr0)\]\[$(tput setaf 4)\]\$(__git_ps1)\[$(tput sgr0)\] ~> "
+PS1="\\[$(tput setaf 2)\\]\$(date +%k:%M)\\[$(tput sgr0)\\] \\u:\\[$(tput setaf 3)\\]\\w\\[$(tput sgr0)\\]\\[$(tput setaf 4)\\]\$(__git_ps1)\\[$(tput sgr0)\\] ~> "

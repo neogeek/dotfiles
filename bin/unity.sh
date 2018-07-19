@@ -10,4 +10,4 @@ if [ -d $UNITY_TEMPLATE_DIR ]; then
 
 fi
 
-(cd /Applications/Unity/Unity.app/Contents/Resources/PackageManager && sudo chown -R $(whoami) ./)
+(cd /Applications/Unity/Unity.app/Contents/Resources/PackageManager && sudo chown -R "$(whoami)" ./)
