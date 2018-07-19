@@ -98,6 +98,12 @@ $ git l
 $ git r
 ```
 
+#### Update Submodules
+
+```bash
+$ git sub
+```
+
 ### Scripts
 
 #### Brew
