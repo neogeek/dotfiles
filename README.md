@@ -136,6 +136,7 @@ $ brew.sh
 - [alfred](https://www.alfredapp.com/)
 - [dash](https://kapeli.com/dash)
 - [discord](https://discordapp.com/)
+- [docker-toolbox](https://docs.docker.com/docker-for-mac/)
 - [dropbox](https://www.dropbox.com/)
 - [evernote](https://evernote.com/)
 - [firefox](https://www.mozilla.org/en-US/firefox/new/)
