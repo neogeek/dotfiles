@@ -233,6 +233,14 @@ Rebuild Spotlight index
 $ rebuildspotlight
 ```
 
+#### removebom
+
+Remove BOM (Byte order mark) character from file
+
+```bash
+$ removebom file.txt
+```
+
 #### restarttouchbar
 
 Restarts the Mac Touchbar
