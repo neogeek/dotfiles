@@ -33,7 +33,7 @@ rebuildspotlight() {
 
 # Remove BOM (Byte order mark) character from file
 removebom() {
-    vim -c "set nobomb" -c wq! "${1}"
+    find . -exec vim -c "set nobomb" -c wq! {} \;
 }
 
 # Restarts the Mac Touchbar
