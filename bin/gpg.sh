@@ -8,7 +8,7 @@ if ! brew -v &> /dev/null; then
 
 fi
 
-brew install gnupg gpg-agent pinentry-mac
+brew install gnupg pinentry-mac
 
 if hash gpg &> /dev/null; then
 
