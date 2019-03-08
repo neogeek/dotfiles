@@ -20,13 +20,11 @@ brew install git-lfs && git lfs install
 brew install heroku
 brew install highlight
 brew install imagemagick ghostscript
-brew install mongodb
-brew install phantomjs
+brew tap mongodb/brew && brew install mongodb-community@4.0
 brew install postgres
 brew install redis
 brew install shellcheck
 brew install watchman
 brew install webkit2png
 
-brew prune
-brew cleanup
+brew cleanup --prune-prefix
