@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Compile a C++ file, execute, and then delete the compiled binary.
+cpprun() {
+    g++ -std=c++17 $1 -o out && ./out && rm ./out
+}
+
 # Create Node.js Starter Kit (https://github.com/neogeek/nodejs-starter-kit)
 create-nodejs-starter-kit() {
 

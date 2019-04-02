@@ -209,6 +209,14 @@ $ osx.sh
 
 ### Functions
 
+#### cpprun
+
+Compile a C++ file, execute, and then delete the compiled binary.
+
+```bash
+$ cpprun main.cpp
+```
+
 #### create-nodejs-starter-kit
 
 Make a new Node.js project using the repo located at <https://github.com/neogeek/nodejs-starter-kit>.
