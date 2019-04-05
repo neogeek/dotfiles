@@ -1,5 +1,0 @@
-#!/bin/bash
-
-NODE_BIN_PATH="$(npm config get prefix)/bin"
-
-export PATH=$NODE_BIN_PATH:$PATH
