@@ -193,7 +193,6 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [react-tools](http://facebook.github.io/react)
 - [spire-of-babel](https://github.com/neogeek/spire-of-babel)
 - [svgo](https://github.com/svg/svgo)
-- [yarn](https://github.com/yarnpkg/yarn)
 
 ```bash
 $ npm.sh
