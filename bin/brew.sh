@@ -17,7 +17,7 @@ brew upgrade
 brew install asciinema
 brew install git && brew link --overwrite git
 brew install git-lfs && git lfs install
-brew install heroku
+brew tap heroku/brew && brew install heroku
 brew install highlight
 brew install imagemagick ghostscript
 brew tap mongodb/brew && brew install mongodb-community@4.0
