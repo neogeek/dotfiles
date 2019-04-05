@@ -25,7 +25,7 @@ source ~/.nvm/nvm.sh
 
 nvm install 10
 nvm install 11
-nvm alias default system
+nvm alias default 11
 
 NPMLISTCACHE=$(npm list -g --depth=0)
 NPMOUTDATEDCACHE=$(npm outdated -g --depth=0)
