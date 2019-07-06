@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DIR=$(dirname "${0}")
+DIR=$(dirname "${0:a}")
 
 export PATH="${DIR}/bin:${PATH}";
 
