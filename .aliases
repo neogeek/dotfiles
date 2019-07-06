@@ -3,9 +3,6 @@
 # directory listing
 alias ls="command ls -lG"
 
-# directory traversal
-alias ..="cd ../"
-
 # Python Server (https://docs.python.org/2/library/simplehttpserver.html)
 alias pyserver="python -m SimpleHTTPServer"
 

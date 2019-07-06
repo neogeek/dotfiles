@@ -34,14 +34,6 @@ Show contents of current directory as a list with color.
 $ ls
 ```
 
-#### Directory Traversal
-
-Move up one directory.
-
-```bash
-$ ..
-```
-
 #### Simple HTTP Server
 
 Run a python server with the static files in the current directory. Port defaults to 8000.
