@@ -8,6 +8,7 @@ git config --global alias.l "log --graph"
 git config --global alias.r "remote -v"
 git config --global alias.sub "submodule update --remote"
 
+git config --global core.autocrlf input
 git config --global core.ignorecase false
 git config --global core.excludesfile "${DIR}"/.gitignore_custom
 
