@@ -1,13 +1,11 @@
-#!/bin/bash
+#!/bin/zsh
 
-# shellcheck disable=SC2128
-DIR=$(dirname "${BASH_SOURCE}")
+DIR=$(dirname "${0}")
 
 export PATH="${DIR}/bin:${PATH}";
 
-for file in "${DIR}"/.{aliases,custom,functions,gitsetup,theme}; do
-    if [ -f "$file" ]; then
-        # shellcheck source=/dev/null
+for file in "${DIR}"/.{aliases,custom,functions,gitsetup}; do
+    if [ -f "${file}" ]; then
         source "${file}"
     fi
 done
