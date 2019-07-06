@@ -9,9 +9,6 @@ echo -n "Installing (3) git plugins ... "
 
 mkdir -p "${DIR}/vendor/"
 
-curl https://raw.githubusercontent.com/git/git/cac25fc330fc26050dcbc92c4bfff169a4848e93/contrib/completion/git-completion.bash -o "${DIR}/vendor/git-completion.bash" &> /dev/null
-curl https://raw.githubusercontent.com/git/git/cac25fc330fc26050dcbc92c4bfff169a4848e93/contrib/completion/git-prompt.sh -o "${DIR}/vendor/git-prompt.bash" &> /dev/null
-
 curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o "${DIR}/vendor/diff-so-fancy" &> /dev/null
 chmod +x "${DIR}/vendor/diff-so-fancy"
 
