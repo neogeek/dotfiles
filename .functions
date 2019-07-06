@@ -7,33 +7,27 @@ cpprun() {
 
 # Create Node.js Starter Kit (https://github.com/neogeek/nodejs-starter-kit)
 create-nodejs-starter-kit() {
-
     curl -L https://github.com/neogeek/nodejs-starter-kit/archive/master.tar.gz | tar -xz
     mkdir -p "${1}"
     mv nodejs-starter-kit-master/{*,.[^.]*} "${1}"
     rm -d nodejs-starter-kit-master
     cd "${1}" || exit
     npm install
-
 }
 
 # Create React.js Starter Kit (https://github.com/neogeek/reactjs-starter-kit)
 create-reactjs-starter-kit() {
-
     curl -L https://github.com/neogeek/reactjs-starter-kit/archive/master.tar.gz | tar -xz
     mkdir -p "${1}"
     mv reactjs-starter-kit-master/{*,.[^.]*} "${1}"
     rm -d reactjs-starter-kit-master
     cd "${1}" || exit
     npm install
-
 }
 
 # Rebuild Spotlight index
 rebuildspotlight() {
-
     sudo mdutil -a -i off && sudo mdutil -a -i on
-
 }
 
 # Remove BOM (Byte order mark) character from file
@@ -43,28 +37,22 @@ removebom() {
 
 # Restarts the Mac Touchbar
 restarttouchbar() {
-
     pkill "Touch Bar agent"
     killall "ControlStrip"
-
 }
 
 # Random Hash
 rhash() {
-
     HASH="$(echo -n "$(date)""${RANDOM}" | shasum -a 256)"
     HASH="${HASH:0:${#HASH}-3}"
     echo "${HASH}"
     echo -n "${HASH}" | pbcopy
-
 }
 
 # Setup Unity Project with .gitignore
 setupunity() {
-
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
     git add .
     git commit -m "Initial commit."
-
 }
