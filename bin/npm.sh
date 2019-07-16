@@ -25,27 +25,7 @@ source ~/.nvm/nvm.sh
 
 nvm install 10
 nvm install 11
-
-NPMLISTCACHE=$(npm list -g --depth=0)
-NPMOUTDATEDCACHE=$(npm outdated -g --depth=0)
-
-npminstall () {
-
-    if ! echo "${NPMLISTCACHE}" | grep " ${1}@" &> /dev/null; then
-
-        npm install -g "$1"
-
-    elif echo "${NPMOUTDATEDCACHE}" | grep "^${1}" &> /dev/null; then
-
-        echo -n "Updating $1 ... "
-
-        npm update -g "$1"
-
-        echo "Done"
-
-    fi
-
-}
+nvm install 12
 
 npm config set prefix ~/npm
 npm config set save=true
@@ -54,15 +34,8 @@ npm config set progress=true
 
 npm -g install npm@latest
 
-npminstall "doxdox"
-npminstall "eslint"
-npminstall "firebase-tools"
-npminstall "mailmake"
-npminstall "mocha"
-npminstall "nodemon"
-npminstall "npm-check-updates"
-npminstall "pm2"
-npminstall "react-native-cli"
-npminstall "react-tools"
-npminstall "spire-of-babel"
-npminstall "svgo"
+npm install -g firebase-tools
+npm install -g nodemon
+npm install -g npm-check-updates
+npm install -g spire-of-babel
+npm install -g svgo
