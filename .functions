@@ -53,6 +53,14 @@ rhash() {
 setupunity() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
+echo "# Custom
+
+.idea/
+
+Assets/Plugins.meta
+Assets/Plugins/Editor.meta
+Assets/Plugins/Editor/" >> .gitignore
+    curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
     git add .
     git commit -m "Initial commit."
 }
