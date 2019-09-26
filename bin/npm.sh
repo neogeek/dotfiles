@@ -24,10 +24,10 @@ fi
 source ~/.nvm/nvm.sh
 
 nvm install 10
-nvm install 11
 nvm install 12
 
-npm config set prefix ~/npm
+nvm alias default 12
+
 npm config set save=true
 npm config set save-exact=true
 npm config set progress=true
