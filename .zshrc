@@ -26,6 +26,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
+
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
