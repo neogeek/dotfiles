@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 DIR=$(dirname "${0:a}")
 
