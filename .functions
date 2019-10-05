@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Compile a C++ file, execute, and then delete the compiled binary.
 cpprun() {
