@@ -1,4 +1,7 @@
 language: haskell
+cache:
+  directories:
+  - "$HOME/.cabal/store"
 install:
    - cabal install shellcheck
 before_script:
