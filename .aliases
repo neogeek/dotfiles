@@ -16,4 +16,4 @@ alias codehighlight="pbpaste | highlight --syntax=js -O rtf --style moria | pbco
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 
 # Local Weather
-alias weather="curl wttr.in?0"
+alias weather="curl \"wttr.in?0\""
