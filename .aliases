@@ -3,8 +3,8 @@
 # directory listing
 alias ls="command ls -lG"
 
-# Python Server (https://docs.python.org/2/library/simplehttpserver.html)
-alias pyserver="python -m SimpleHTTPServer"
+# Python Server (https://docs.python.org/3/library/http.server.html
+alias pyserver="python3 -m http.server"
 
 # sass (http://sass-lang.com/)
 alias sasswatch="sass --sourcemap=none --style expanded --watch ./:./"
