@@ -137,7 +137,6 @@ You can install and update [rbenv](https://github.com/sstephenson/rbenv) and lis
 - [bundler](http://bundler.io)
 - [foreman](http://ddollar.github.io/foreman/)
 - [jekyll](http://jekyllrb.com)
-- [sass](http://sass-lang.com)
 
 ```bash
 $ gem.sh

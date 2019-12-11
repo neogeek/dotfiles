@@ -35,4 +35,3 @@ gem update --system
 gem install bundler
 gem install foreman
 gem install jekyll
-gem install sass
