@@ -86,22 +86,14 @@ $ git sub
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
-- [asciinema](https://asciinema.org)
 - [cask](http://caskroom.io)
 - [git](https://git-scm.com/)
 - [git-lfs](https://git-lfs.github.com/)
 - [gpg](https://help.github.com/categories/gpg/)
 - [heroku](https://toolbelt.heroku.com/standalone)
-- [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php)
 - [hub](https://hub.github.com/)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
-- [mongodb](https://www.mongodb.org)
-- [phantomjs](http://phantomjs.org)
-- [postgres](http://www.postgresql.org)
-- [redis](http://redis.io)
 - [shellcheck](https://github.com/koalaman/shellcheck)
-- [watchman](https://facebook.github.io/watchman)
-- [webkit2png](http://www.paulhammond.org/webkit2png/)
 
 ```bash
 $ brew.sh
