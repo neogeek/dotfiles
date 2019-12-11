@@ -20,10 +20,10 @@ fi
 # shellcheck disable=SC1090
 source ~/.bash_profile
 
-if ! grep "2.6.2" <<< "$(rbenv version)"; then
+if ! grep "2.6.5" <<< "$(rbenv version)"; then
 
-    rbenv install 2.6.2
-    rbenv global 2.6.2
+    rbenv install 2.6.5
+    rbenv global 2.6.5
 
 fi
 
