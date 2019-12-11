@@ -5,7 +5,7 @@ DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
 # Install Git Plugins
 
-echo -n "Installing (3) git plugins ... "
+echo -n "Installing (1) git plugins ... "
 
 mkdir -p "${DIR}/vendor/"
 
