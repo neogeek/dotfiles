@@ -6,14 +6,5 @@ alias ls="command ls -lG"
 # Python Server (https://docs.python.org/3/library/http.server.html
 alias pyserver="python3 -m http.server"
 
-# sass (http://sass-lang.com/)
-alias sasswatch="sass --sourcemap=none --style expanded --watch ./:./"
-
-# code highlight
-alias codehighlight="pbpaste | highlight --syntax=js -O rtf --style moria | pbcopy"
-
 # Delete node_modules/ and reinstall packages
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
-
-# Local Weather
-alias weather="curl \"wttr.in?0\""

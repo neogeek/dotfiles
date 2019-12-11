@@ -42,22 +42,6 @@ Run a python server with the static files in the current directory. Port default
 $ pyserver <port>
 ```
 
-#### Sass Watch
-
-Watch for changes to `.scss` files and compile them into the same directory.
-
-```bash
-$ sasswatch
-```
-
-#### Code Highlight
-
-Take the current contents of the clipboard and run it through a syntax highlighter.
-
-```bash
-$ codehighlight
-```
-
 #### Delete node_modules/ and reinstall packages
 
 ```bash
