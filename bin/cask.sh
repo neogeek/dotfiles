@@ -17,8 +17,6 @@ brew cask install dash
 brew cask install discord
 brew cask install docker-toolbox
 brew cask install dropbox
-brew cask install evernote
-brew cask install firefox
 brew cask install fontbase
 brew cask install github
 brew cask install google-chrome
@@ -26,7 +24,6 @@ brew cask install imageoptim
 brew cask install itch
 brew cask install iterm2
 brew cask install kap
-brew cask install opera
 brew cask install postgres
 brew cask install postico
 brew cask install sketch
