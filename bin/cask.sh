@@ -8,7 +8,7 @@ if ! brew -v &> /dev/null; then
 
 fi
 
-brew tap caskroom/cask
+brew tap homebrew/cask-cask
 brew tap buo/cask-upgrade
 
 brew cask install 1password
