@@ -17,9 +17,6 @@ if ! grep -Fq "rbenv init -" ~/.bash_profile; then
 
 fi
 
-# https://github.com/rbenv/ruby-build/issues/1233
-# sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg  -target /
-
 # shellcheck disable=SC1090
 source ~/.bash_profile
 
