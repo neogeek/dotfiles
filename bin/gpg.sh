@@ -20,7 +20,9 @@ fi
 if [ -d ~/.gnupg/ ]; then
 
     sed -ie "/no-tty/d" ~/.gnupg/gpg.conf
+    sed -ie "/use-agent/d" ~/.gnupg/gpg.conf
 
     echo "no-tty" >> ~/.gnupg/gpg.conf
+    echo "use-agent" >> ~/.gnupg/gpg.conf
 
 fi
