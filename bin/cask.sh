@@ -29,6 +29,8 @@ brew cask install postico
 brew cask install sketch
 brew cask install spotify
 brew cask install steam
+brew cask install sublime-text
+brew cask install sublime-merge
 brew cask install tunnelbear
 brew cask install twitch
 brew cask install unity-hub

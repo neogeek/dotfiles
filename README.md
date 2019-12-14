@@ -119,6 +119,8 @@ $ brew.sh
 - [sketch](https://www.sketchapp.com/)
 - [spotify](https://www.spotify.com/us/)
 - [steam](http://store.steampowered.com/)
+- [sublime-text](https://www.sublimetext.com/)
+- [sublime-merge](https://www.sublimemerge.com/)
 - [tunnelbear](https://www.tunnelbear.com/)
 - [twitch](https://www.twitch.tv/)
 - [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
