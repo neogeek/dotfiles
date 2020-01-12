@@ -23,10 +23,10 @@ fi
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
-nvm install 10
 nvm install 12
+nvm install 13
 
-nvm alias default 12
+nvm alias default 13
 
 npm config set save=true
 npm config set save-exact=true
