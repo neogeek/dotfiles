@@ -24,6 +24,7 @@ brew cask install imageoptim
 brew cask install itch
 brew cask install iterm2
 brew cask install kap
+brew cask install ngrok
 brew cask install postgres
 brew cask install postico
 brew cask install sketch

@@ -114,6 +114,7 @@ $ brew.sh
 - [itch](https://itch.io/)
 - [iterm2](https://www.iterm2.com/)
 - [kap](https://github.com/wulkano/kap)
+- [ngrok](https://ngrok.com/)
 - [postgres](https://postgresapp.com/)
 - [postico](https://eggerapps.at/postico/)
 - [sketch](https://www.sketchapp.com/)
