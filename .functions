@@ -25,6 +25,16 @@ create-reactjs-starter-kit() {
     npm install
 }
 
+# Reset git repo
+gitplease() {
+    GIT_REMOTE=$(git config --get remote.origin.url)
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "Initial commit."
+    git remote add origin "${GIT_REMOTE}"
+}
+
 # Rebuild Spotlight index
 rebuildspotlight() {
     sudo mdutil -a -i off && sudo mdutil -a -i on

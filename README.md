@@ -195,6 +195,14 @@ Make a new React.js project using the repo located at <https://github.com/neogee
 $ create-reactjs-starter-kit <name>
 ```
 
+#### gitplease
+
+Hard reset a git repo, maintaining the remote git URL.
+
+```bash
+$ gitplease
+```
+
 #### rebuildspotlight
 
 Rebuild Spotlight index
