@@ -14,6 +14,7 @@ git config --global core.autocrlf input
 git config --global core.ignorecase false
 git config --global core.excludesfile "${DIR}"/.gitignore_custom
 
+git config --global pull.rebase false
 git config --global push.default current
 
 git config --global format.pretty "%C(yellow)%h%C(reset) %C(green)(%ar)%C(reset) %an: %s"
