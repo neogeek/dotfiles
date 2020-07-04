@@ -243,3 +243,11 @@ Initializes a new git project with a Unity specific [.gitignore](https://raw.git
 ```bash
 $ setupunity
 ```
+
+#### Setup Unreal Project with .gitignore
+
+Initializes a new git project with a Unreal specific [.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Unreal.gitignore)
+
+```bash
+$ setupunreal
+```

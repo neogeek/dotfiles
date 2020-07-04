@@ -71,3 +71,15 @@ echo "# Custom
     git add .
     git commit -m "Initial commit."
 }
+
+# Setup Unreal Engine Project with .gitignore
+setupunreal() {
+    git init
+    curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/UnrealEngine.gitignore
+echo "# Custom
+
+.idea/
+" >> .gitignore
+    git add .
+    git commit -m "Initial commit."
+}
