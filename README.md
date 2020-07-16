@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/neogeek/dotfiles.svg?branch=master)](https://travis-ci.org/neogeek/dotfiles)
-
 # dotfiles
 
 > @neogeek's dotfiles
+
+[![Build Status](https://travis-ci.org/neogeek/dotfiles.svg?branch=master)](https://travis-ci.org/neogeek/dotfiles)
 
 ![](screenshot.png)
 

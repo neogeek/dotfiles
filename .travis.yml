@@ -1,10 +1,2 @@
-language: haskell
-cache:
-  directories:
-  - "$HOME/.cabal/store"
-install:
-   - cabal install shellcheck
-before_script:
-   - export PATH=$PATH:~/.cabal/bin/
+language: shell
 script: make test
-sudo: false
