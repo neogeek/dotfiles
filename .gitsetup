@@ -4,6 +4,8 @@ export PATH="${DIR}/vendor:${PATH}"
 
 DIR=$(dirname "${0:a}")
 
+git config --global init.defaultBranch main
+
 git config --global alias.b "branch -vv"
 git config --global alias.bb "branch -vv -a"
 git config --global alias.l "log --graph"
