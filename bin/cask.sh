@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if ! brew -v &> /dev/null; then
+if ! brew -v &>/dev/null; then
 
     echo "brew is not installed. run brew.sh before re-running this script."
 
-    exit 0;
+    exit 0
 
 fi
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! brew -v &> /dev/null; then
+if ! brew -v &>/dev/null; then
 
     echo "Installing brew"
 

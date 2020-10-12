@@ -63,10 +63,10 @@ rhash() {
 setupunity() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
-echo "# Custom
+    echo "# Custom
 
 .idea/
-" >> .gitignore
+" >>.gitignore
     curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
     git add .
     git commit -m "Initial commit."
@@ -76,10 +76,10 @@ echo "# Custom
 setupunreal() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/UnrealEngine.gitignore
-echo "# Custom
+    echo "# Custom
 
 .idea/
-" >> .gitignore
+" >>.gitignore
     git add .
     git commit -m "Initial commit."
 }

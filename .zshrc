@@ -29,7 +29,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(rbenv init -)"
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 source ~/git/github/dotfiles/.bash_profile #dotfiles
 

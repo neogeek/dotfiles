@@ -86,14 +86,14 @@ $ git sub
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
-- [cask](http://caskroom.io)
-- [git](https://git-scm.com/)
-- [git-lfs](https://git-lfs.github.com/)
-- [gpg](https://help.github.com/categories/gpg/)
-- [heroku](https://toolbelt.heroku.com/standalone)
-- [hub](https://hub.github.com/)
-- [imagemagick](http://www.imagemagick.org/script/index.php)
-- [shellcheck](https://github.com/koalaman/shellcheck)
+-   [cask](http://caskroom.io)
+-   [git](https://git-scm.com/)
+-   [git-lfs](https://git-lfs.github.com/)
+-   [gpg](https://help.github.com/categories/gpg/)
+-   [heroku](https://toolbelt.heroku.com/standalone)
+-   [hub](https://hub.github.com/)
+-   [imagemagick](http://www.imagemagick.org/script/index.php)
+-   [shellcheck](https://github.com/koalaman/shellcheck)
 
 ```bash
 $ brew.sh
@@ -101,33 +101,33 @@ $ brew.sh
 
 #### Cask
 
-- [1password](https://www.1password.com/)
-- [alfred](https://www.alfredapp.com/)
-- [dash](https://kapeli.com/dash)
-- [discord](https://discordapp.com/)
-- [docker-toolbox](https://docs.docker.com/docker-for-mac/)
-- [dropbox](https://www.dropbox.com/)
-- [fontbase](http://fontba.se/)
-- [github](https://desktop.github.com/)
-- [google-chrome](https://www.google.com/chrome/)
-- [imageoptim](https://imageoptim.com/mac)
-- [itch](https://itch.io/)
-- [iterm2](https://www.iterm2.com/)
-- [kap](https://github.com/wulkano/kap)
-- [ngrok](https://ngrok.com/)
-- [postgres](https://postgresapp.com/)
-- [postico](https://eggerapps.at/postico/)
-- [sketch](https://www.sketchapp.com/)
-- [spotify](https://www.spotify.com/us/)
-- [steam](http://store.steampowered.com/)
-- [sublime-text](https://www.sublimetext.com/)
-- [sublime-merge](https://www.sublimemerge.com/)
-- [tunnelbear](https://www.tunnelbear.com/)
-- [twitch](https://www.twitch.tv/)
-- [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
-- [virtualbox](https://www.virtualbox.org/)
-- [visual-studio](https://visualstudio.com/)
-- [visual-studio-code](https://code.visualstudio.com/)
+-   [1password](https://www.1password.com/)
+-   [alfred](https://www.alfredapp.com/)
+-   [dash](https://kapeli.com/dash)
+-   [discord](https://discordapp.com/)
+-   [docker-toolbox](https://docs.docker.com/docker-for-mac/)
+-   [dropbox](https://www.dropbox.com/)
+-   [fontbase](http://fontba.se/)
+-   [github](https://desktop.github.com/)
+-   [google-chrome](https://www.google.com/chrome/)
+-   [imageoptim](https://imageoptim.com/mac)
+-   [itch](https://itch.io/)
+-   [iterm2](https://www.iterm2.com/)
+-   [kap](https://github.com/wulkano/kap)
+-   [ngrok](https://ngrok.com/)
+-   [postgres](https://postgresapp.com/)
+-   [postico](https://eggerapps.at/postico/)
+-   [sketch](https://www.sketchapp.com/)
+-   [spotify](https://www.spotify.com/us/)
+-   [steam](http://store.steampowered.com/)
+-   [sublime-text](https://www.sublimetext.com/)
+-   [sublime-merge](https://www.sublimemerge.com/)
+-   [tunnelbear](https://www.tunnelbear.com/)
+-   [twitch](https://www.twitch.tv/)
+-   [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
+-   [virtualbox](https://www.virtualbox.org/)
+-   [visual-studio](https://visualstudio.com/)
+-   [visual-studio-code](https://code.visualstudio.com/)
 
 ```bash
 $ cask.sh
@@ -137,10 +137,10 @@ $ cask.sh
 
 You can install and update [rbenv](https://github.com/sstephenson/rbenv) and listed dependencies using the following command.
 
-- [bundler](http://bundler.io)
-- [foreman](http://ddollar.github.io/foreman/)
-- [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)
-- [jekyll](http://jekyllrb.com)
+-   [bundler](http://bundler.io)
+-   [foreman](http://ddollar.github.io/foreman/)
+-   [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)
+-   [jekyll](http://jekyllrb.com)
 
 ```bash
 $ gem.sh
@@ -150,13 +150,13 @@ $ gem.sh
 
 You can install and update [npm](https://www.npmjs.com) listed dependencies using the following command.
 
-- [firebase-tools](https://www.firebase.com/)
-- [get-unity](https://github.com/neogeek/get-unity)
-- [nodemon](https://github.com/remy/nodemon)
-- [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
-- [spire-of-babel](https://github.com/neogeek/spire-of-babel)
-- [svgo](https://github.com/svg/svgo)
-- [unity-check-updates](https://github.com/neogeek/unity-check-updates)
+-   [firebase-tools](https://www.firebase.com/)
+-   [get-unity](https://github.com/neogeek/get-unity)
+-   [nodemon](https://github.com/remy/nodemon)
+-   [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
+-   [spire-of-babel](https://github.com/neogeek/spire-of-babel)
+-   [svgo](https://github.com/svg/svgo)
+-   [unity-check-updates](https://github.com/neogeek/unity-check-updates)
 
 ```bash
 $ npm.sh

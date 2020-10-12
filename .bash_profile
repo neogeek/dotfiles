@@ -2,7 +2,7 @@
 
 DIR=$(dirname "${0:a}")
 
-export PATH="${DIR}/bin:${PATH}";
+export PATH="${DIR}/bin:${PATH}"
 
 for file in "${DIR}"/.{aliases,custom,functions,gitsetup}; do
     if [ -f "${file}" ]; then

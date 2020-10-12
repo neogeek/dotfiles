@@ -72,7 +72,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # Other
 
 ## Disable default iTunes behavior with media keys in OSX.
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist &> /dev/null
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist &>/dev/null
 
 ## Remove Shadow from OS X Screenshots
 defaults write com.apple.screencapture disable-shadow -bool true

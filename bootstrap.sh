@@ -9,7 +9,7 @@ echo -n "Installing (1) git plugins ... "
 
 mkdir -p "${DIR}/vendor/"
 
-curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o "${DIR}/vendor/diff-so-fancy" &> /dev/null
+curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o "${DIR}/vendor/diff-so-fancy" &>/dev/null
 chmod +x "${DIR}/vendor/diff-so-fancy"
 
 echo "Done"
@@ -22,7 +22,7 @@ touch ~/.bash_profile
 
 sed -ie "/#dotfiles/d" ~/.bash_profile
 
-echo "source ${DIR}/.bash_profile #dotfiles" >> ~/.bash_profile
+echo "source ${DIR}/.bash_profile #dotfiles" >>~/.bash_profile
 
 echo "Done"
 
