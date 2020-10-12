@@ -18,6 +18,7 @@ brew install git && brew link --overwrite git
 brew install git-lfs && git lfs install
 brew tap heroku/brew && brew install heroku
 brew install hub
+brew install gh
 brew install imagemagick
 brew install shellcheck
 

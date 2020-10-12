@@ -89,6 +89,7 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 -   [cask](http://caskroom.io)
 -   [git](https://git-scm.com/)
 -   [git-lfs](https://git-lfs.github.com/)
+-   [gh](https://cli.github.com/)
 -   [gpg](https://help.github.com/categories/gpg/)
 -   [heroku](https://toolbelt.heroku.com/standalone)
 -   [hub](https://hub.github.com/)
