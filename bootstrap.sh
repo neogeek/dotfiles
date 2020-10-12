@@ -14,17 +14,19 @@ chmod +x "${DIR}/vendor/diff-so-fancy"
 
 echo "Done"
 
-# Update .bash_profile
+# Update .zshrc
 
-echo -n "Installing @neogeek's dotfiles to ~/.bash_profile ... "
+echo -n "Installing @neogeek's dotfiles to ~/.zshrc ... "
 
-touch ~/.bash_profile
+if [ -f ~/.zshrc ]; then
 
-sed -ie "/#dotfiles/d" ~/.bash_profile
+    mv ~/.zshrc ~/.zshrc-backup
 
-echo "source ${DIR}/.bash_profile #dotfiles" >>~/.bash_profile
+fi
+
+cp "${DIR}/.zshrc" ~/.zshrc
 
 echo "Done"
 
 # shellcheck disable=SC1090
-source ~/.bash_profile
+zsh ~/.zshrc
