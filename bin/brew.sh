@@ -14,12 +14,20 @@ brew update && brew doctor
 
 brew upgrade
 
-brew install git && brew link --overwrite git
-brew install git-lfs && git lfs install
-brew tap heroku/brew && brew install heroku
-brew install hub
-brew install gh
-brew install imagemagick
-brew install shellcheck
+brewinstallpackage() {
+
+    if ! brew ls --versions "${1}" >/dev/null; then
+        brew install "${1}"
+    fi
+
+}
+
+brewinstallpackage "git"
+brewinstallpackage "git-lfs"
+brew tap heroku/brew && brewinstallpackage "heroku"
+brewinstallpackage "hub"
+brewinstallpackage "gh"
+brewinstallpackage "imagemagick"
+brewinstallpackage "shellcheck"
 
 brew cleanup --prune-prefix
