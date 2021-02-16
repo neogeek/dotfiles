@@ -8,37 +8,32 @@ if ! brew -v &>/dev/null; then
 
 fi
 
-brew tap homebrew/cask-cask
-brew tap buo/cask-upgrade
+brew install --cask 1password
+brew install --cask alfred
+brew install --cask dash
+brew install --cask discord
+brew install --cask docker-toolbox
+brew install --cask dropbox
+brew install --cask fontbase
+brew install --cask github
+brew install --cask google-chrome
+brew install --cask imageoptim
+brew install --cask itch
+brew install --cask iterm2
+brew install --cask kap
+brew install --cask ngrok
+brew install --cask postgres
+brew install --cask postico
+brew install --cask sketch
+brew install --cask spotify
+brew install --cask steam
+brew install --cask sublime-text
+brew install --cask sublime-merge
+brew install --cask tunnelbear
+brew install --cask twitch
+brew install --cask unity-hub
+brew install --cask virtualbox
+brew install --cask visual-studio
+brew install --cask visual-studio-code
 
-brew cask install 1password
-brew cask install alfred
-brew cask install dash
-brew cask install discord
-brew cask install docker-toolbox
-brew cask install dropbox
-brew cask install fontbase
-brew cask install github
-brew cask install google-chrome
-brew cask install imageoptim
-brew cask install itch
-brew cask install iterm2
-brew cask install kap
-brew cask install ngrok
-brew cask install postgres
-brew cask install postico
-brew cask install sketch
-brew cask install spotify
-brew cask install steam
-brew cask install sublime-text
-brew cask install sublime-merge
-brew cask install tunnelbear
-brew cask install twitch
-brew cask install unity-hub
-brew cask install virtualbox
-brew cask install visual-studio
-brew cask install visual-studio-code
-
-brew cask cleanup
-
-brew cu
+brew cleanup
