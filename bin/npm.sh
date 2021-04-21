@@ -32,6 +32,7 @@ nvm alias default 16
 npm config set save=true
 npm config set save-exact=true
 npm config set progress=true
+npm config set legacy-peer-deps=true
 
 npm -g install npm@latest
 
