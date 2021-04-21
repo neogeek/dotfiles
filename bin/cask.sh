@@ -17,6 +17,7 @@ brew install --cask dropbox
 brew install --cask fontbase
 brew install --cask github
 brew install --cask google-chrome
+brew install --cask google-cloud-sdk
 brew install --cask imageoptim
 brew install --cask itch
 brew install --cask iterm2

@@ -110,6 +110,7 @@ $ brew.sh
 -   [fontbase](http://fontba.se/)
 -   [github](https://desktop.github.com/)
 -   [google-chrome](https://www.google.com/chrome/)
+-   [google-cloud-sdk](https://cloud.google.com/sdk/)
 -   [imageoptim](https://imageoptim.com/mac)
 -   [itch](https://itch.io/)
 -   [iterm2](https://www.iterm2.com/)
