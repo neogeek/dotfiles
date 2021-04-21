@@ -25,8 +25,9 @@ source ~/.nvm/nvm.sh
 
 nvm install 12
 nvm install 14
+nvm install 16
 
-nvm alias default 14
+nvm alias default 16
 
 npm config set save=true
 npm config set save-exact=true
