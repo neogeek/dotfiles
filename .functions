@@ -25,6 +25,11 @@ create-reactjs-starter-kit() {
     npm install
 }
 
+# Shutdown crashed firebase instances
+firebaseplease() {
+    lsof -ti tcp:8080 | xargs kill
+}
+
 # Reset git repo
 gitplease() {
     GIT_REMOTE=$(git config --get remote.origin.url)
@@ -33,6 +38,13 @@ gitplease() {
     git add .
     git commit -m "Initial commit."
     git remote add origin "${GIT_REMOTE}"
+}
+
+# Clear all postmaster.pid files
+postgresplease() {
+    find "${HOME}/Library/Application Support/Postgres" -name postmaster.pid | while read -r FILE; do
+        rm -f "${FILE}"
+    done
 }
 
 # Rebuild Spotlight index
