@@ -25,4 +25,8 @@ if [ -d ~/.gnupg/ ]; then
     echo "no-tty" >>~/.gnupg/gpg.conf
     echo "use-agent" >>~/.gnupg/gpg.conf
 
+    sed -ie "/pinentry-program \/usr\/local\/bin\/pinentry-mac/d" ~/.gnupg/gpg-agent.conf
+
+    echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+
 fi
