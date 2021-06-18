@@ -14,6 +14,17 @@ chmod +x "${DIR}/vendor/diff-so-fancy"
 
 echo "Done"
 
+# Install ohmyzsh
+
+echo -n "Installing ohmyzsh ... "
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
+
+echo "Done"
+
 # Update .zshrc
 
 echo -n "Installing @neogeek's dotfiles to ~/.zshrc ... "
