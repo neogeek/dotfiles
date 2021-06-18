@@ -103,9 +103,7 @@ $ brew.sh
 
 -   [1password](https://www.1password.com/)
 -   [alfred](https://www.alfredapp.com/)
--   [dash](https://kapeli.com/dash)
 -   [discord](https://discordapp.com/)
--   [docker-toolbox](https://docs.docker.com/docker-for-mac/)
 -   [dropbox](https://www.dropbox.com/)
 -   [fontbase](http://fontba.se/)
 -   [github](https://desktop.github.com/)
@@ -116,7 +114,6 @@ $ brew.sh
 -   [iterm2](https://www.iterm2.com/)
 -   [kap](https://github.com/wulkano/kap)
 -   [ngrok](https://ngrok.com/)
--   [postgres](https://postgresapp.com/)
 -   [postico](https://eggerapps.at/postico/)
 -   [sketch](https://www.sketchapp.com/)
 -   [spotify](https://www.spotify.com/us/)
@@ -126,7 +123,6 @@ $ brew.sh
 -   [tunnelbear](https://www.tunnelbear.com/)
 -   [twitch](https://www.twitch.tv/)
 -   [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
--   [virtualbox](https://www.virtualbox.org/)
 -   [visual-studio](https://visualstudio.com/)
 -   [visual-studio-code](https://code.visualstudio.com/)
 
