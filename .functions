@@ -47,6 +47,18 @@ gitplease() {
     esac
 }
 
+# Delete all untracked files in a plasticscm repo
+plasticplease() {
+    printf "Whoa there! Are you sure? (y/n)? "
+
+    read choice
+
+    case "${choice}" in
+      y|Y )
+        cm status --ignored --cutignored --compact --short | while read FILE; do rm -rf $FILE; done;;
+    esac
+}
+
 # Clear all postmaster.pid files
 postgresplease() {
     find "${HOME}/Library/Application Support/Postgres" -name postmaster.pid | while read -r FILE; do
