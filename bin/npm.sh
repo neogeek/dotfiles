@@ -23,8 +23,6 @@ fi
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
-nvm install 12
-nvm install 14
 nvm install 16
 
 nvm alias default 16
