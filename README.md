@@ -138,6 +138,7 @@ $ brew.sh
 - [kap](https://github.com/wulkano/kap)
 - [mutify](https://mutify.app/)
 - [ngrok](https://ngrok.com/)
+- [notion](https://notion.so/)
 - [obs](https://obsproject.com/)
 - [parsec](https://parsec.app/)
 - [plasticscm-cloud-edition](https://www.plasticscm.com/)

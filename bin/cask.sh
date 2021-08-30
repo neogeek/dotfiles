@@ -28,6 +28,7 @@ brew install --cask jetbrains-toolbox
 brew install --cask kap
 brew install --cask mutify
 brew install --cask ngrok
+brew install --cask notion
 brew install --cask obs
 brew install --cask parsec
 brew install --cask plasticscm-cloud-edition
