@@ -22,6 +22,7 @@ brewinstallpackage() {
 
 }
 
+brewinstallpackage "cloc"
 brewinstallpackage "git"
 brewinstallpackage "git-lfs"
 brew tap heroku/brew && brewinstallpackage "heroku"

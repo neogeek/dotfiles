@@ -104,6 +104,7 @@ $ git sub
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
+- [cloc](https://github.com/AlDanial/cloc/)
 - [git](https://git-scm.com/)
 - [git-lfs](https://git-lfs.github.com/)
 - [gh](https://cli.github.com/)
