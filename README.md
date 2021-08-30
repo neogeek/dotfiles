@@ -48,6 +48,24 @@ $ pyserver <port>
 $ npmplease
 ```
 
+#### Postgres App CLI
+
+```bash
+$ psql
+```
+
+#### Python3
+
+```bash
+$ python
+```
+
+#### Python3 PIP
+
+```bash
+$ pip
+```
+
 ### Git Aliases
 
 #### Branches

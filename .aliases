@@ -8,3 +8,12 @@ alias pyserver="python3 -m http.server"
 
 # Delete node_modules/ and reinstall packages
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+
+# Postgres App CLI
+alias psql="/Applications/Postgres.app/Contents/Versions/latest/bin/psql"
+
+# Python3
+alias python="python3"
+
+# Python3 PIP
+alias pip="pip3"
