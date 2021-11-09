@@ -48,12 +48,6 @@ $ pyserver <port>
 $ npmplease
 ```
 
-#### Postgres App CLI
-
-```bash
-$ psql
-```
-
 #### Python3
 
 ```bash

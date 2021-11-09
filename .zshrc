@@ -35,6 +35,7 @@ export NVM_DIR="$HOME/.nvm"
 source ~/git/github/dotfiles/.bash_profile #dotfiles
 
 export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
