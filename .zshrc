@@ -15,8 +15,8 @@ plugins=(
   gitfast
   git-extras
   git-flow
+  macos
   npm
-  osx
   sublime
   sudo
   urltools
