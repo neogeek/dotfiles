@@ -38,6 +38,7 @@ npm install -g firebase-tools
 npm install -g get-unity
 npm install -g nodemon
 npm install -g npm-check-updates
+npm install -g snyk
 npm install -g spire-of-babel
 npm install -g svgo
 npm install -g unity-check-updates
