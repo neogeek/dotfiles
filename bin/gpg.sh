@@ -13,7 +13,7 @@ brew install gnupg pinentry-mac
 if hash gpg &>/dev/null; then
 
     git config --global commit.gpgsign true
-    git config --global gpg.program $(which gpg)
+    git config --global gpg.program "$(which gpg)"
 
 fi
 
