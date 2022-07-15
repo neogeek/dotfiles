@@ -80,6 +80,6 @@ defaults write com.apple.screencapture disable-shadow -bool true
 killall SystemUIServer
 
 ## Change Mouse Speed
-defaults write -g com.apple.mouse.scaling  5.0
+defaults write -g com.apple.mouse.scaling 5.0
 
 echo "Done"

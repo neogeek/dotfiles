@@ -22,11 +22,11 @@ if [ -d ~/.gnupg/ ]; then
     sed -ie "/no-tty/d" ~/.gnupg/gpg.conf
     sed -ie "/use-agent/d" ~/.gnupg/gpg.conf
 
-    echo "no-tty" >> ~/.gnupg/gpg.conf
-    echo "use-agent" >> ~/.gnupg/gpg.conf
+    echo "no-tty" >>~/.gnupg/gpg.conf
+    echo "use-agent" >>~/.gnupg/gpg.conf
 
     sed -ie "/pinentry-program \/usr\/homebrew\/bin\/pinentry-mac/d" ~/.gnupg/gpg-agent.conf
 
-    echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
+    echo "pinentry-program $(which pinentry-mac)" >>~/.gnupg/gpg-agent.conf
 
 fi
