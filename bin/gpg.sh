@@ -30,3 +30,5 @@ if [ -d ~/.gnupg/ ]; then
     echo "pinentry-program $(which pinentry-mac)" >>~/.gnupg/gpg-agent.conf
 
 fi
+
+gpgconf --kill gpg-agent
