@@ -98,7 +98,6 @@ $ git sub
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
-- [android-platform-tools](https://developer.android.com/studio/releases/platform-tools)
 - [cloc](https://github.com/AlDanial/cloc/)
 - [git](https://git-scm.com/)
 - [git-lfs](https://git-lfs.github.com/)
@@ -117,6 +116,7 @@ $ brew.sh
 
 - [1password](https://www.1password.com/)
 - [alfred](https://www.alfredapp.com/)
+- [android-platform-tools](https://developer.android.com/studio/releases/platform-tools)
 - [discord](https://discordapp.com/)
 - [dropbox](https://www.dropbox.com/)
 - [epic-games](https://www.epicgames.com/)

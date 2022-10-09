@@ -22,7 +22,6 @@ brewinstallpackage() {
 
 }
 
-brewinstallpackage "android-platform-tools"
 brewinstallpackage "cloc"
 brewinstallpackage "git"
 brewinstallpackage "git-lfs"

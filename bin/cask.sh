@@ -12,6 +12,7 @@ brew tap homebrew/cask-versions
 
 brew install --cask 1password
 brew install --cask alfred
+brew install --cask android-platform-tools
 brew install --cask discord
 brew install --cask dropbox
 brew install --cask epic-games
