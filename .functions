@@ -25,11 +25,6 @@ create-reactjs-starter-kit() {
     npm install
 }
 
-# Shutdown crashed firebase instances
-firebaseplease() {
-    lsof -ti tcp:8080 | xargs kill
-}
-
 # Reset git repo
 gitplease() {
     printf "Whoa there! Are you sure? (y/n)? "

@@ -221,14 +221,6 @@ Make a new React.js project using the repo located at <https://github.com/neogee
 $ create-reactjs-starter-kit <name>
 ```
 
-#### firebaseplease
-
-Shutdown crashed firebase instances
-
-```bash
-$ firebaseplease
-```
-
 #### gitplease
 
 Hard reset a git repo, maintaining the remote git URL.
