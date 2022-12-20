@@ -54,6 +54,13 @@ plasticplease() {
     esac
 }
 
+# Shutdown process associated with port
+portplease() {
+    PORT=$1
+
+    lsof -t -i ":${PORT}" | xargs kill
+}
+
 # Clear all postmaster.pid files
 postgresplease() {
     find "${HOME}/Library/Application Support/Postgres" -name postmaster.pid | while read -r FILE; do

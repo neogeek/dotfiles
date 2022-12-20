@@ -237,6 +237,14 @@ Delete all untracked files in a plasticscm repo.
 $ plasticplease
 ```
 
+#### portplease
+
+Shutdown process associated with port
+
+```bash
+$ portplease 6006
+```
+
 #### postgresplease
 
 Clear all postmaster.pid files
