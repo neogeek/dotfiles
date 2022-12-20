@@ -32,13 +32,14 @@ gitplease() {
     read -r choice
 
     case "${choice}" in
-      y|Y )
+    y | Y)
         GIT_REMOTE=$(git config --get remote.origin.url)
         rm -rf .git
         git init
         git add .
         git commit -m "Initial commit."
-        [ -n "${GIT_REMOTE}" ] && git remote add origin "${GIT_REMOTE}";;
+        [ -n "${GIT_REMOTE}" ] && git remote add origin "${GIT_REMOTE}"
+        ;;
     esac
 }
 
@@ -49,8 +50,9 @@ plasticplease() {
     read choice
 
     case "${choice}" in
-      y|Y )
-        cm status --ignored --cutignored --compact --short | while read FILE; do rm -rf $FILE; done;;
+    y | Y)
+        cm status --ignored --cutignored --compact --short | while read FILE; do rm -rf $FILE; done
+        ;;
     esac
 }
 
