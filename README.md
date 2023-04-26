@@ -2,7 +2,7 @@
 
 > @neogeek's dotfiles
 
-[![Build Status](https://travis-ci.org/neogeek/dotfiles.svg?branch=master)](https://travis-ci.org/neogeek/dotfiles)
+[![Tests](https://github.com/neogeek/dotfiles/actions/workflows/test.workflow.yml/badge.svg)](https://github.com/neogeek/dotfiles/actions/workflows/test.workflow.yml)
 
 ![](screenshot.png)
 
