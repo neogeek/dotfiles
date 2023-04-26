@@ -36,7 +36,6 @@ npm config set legacy-peer-deps=true
 
 npm -g install npm@latest
 
-npm install -g firebase-tools
 npm install -g get-unity
 npm install -g nodemon
 npm install -g npm-check-updates
