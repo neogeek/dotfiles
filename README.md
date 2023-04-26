@@ -103,7 +103,6 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [git-lfs](https://git-lfs.github.com/)
 - [gh](https://cli.github.com/)
 - [gpg](https://help.github.com/categories/gpg/)
-- [heroku](https://toolbelt.heroku.com/standalone)
 - [hub](https://hub.github.com/)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
 - [shellcheck](https://github.com/koalaman/shellcheck)
