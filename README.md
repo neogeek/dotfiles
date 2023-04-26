@@ -162,8 +162,6 @@ You can install and update [rbenv](https://github.com/sstephenson/rbenv) and lis
 
 - [bundler](http://bundler.io)
 - [foreman](http://ddollar.github.io/foreman/)
-- [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)
-- [jekyll](http://jekyllrb.com)
 
 ```bash
 $ gem.sh

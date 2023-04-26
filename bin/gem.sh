@@ -31,5 +31,3 @@ gem update --system
 
 gem install bundler
 gem install foreman
-gem install github_changelog_generator
-gem install jekyll
