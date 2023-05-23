@@ -39,6 +39,7 @@ npm -g install npm@latest
 npm install -g get-unity
 npm install -g nodemon
 npm install -g npm-check-updates
+npm install -g pm2
 npm install -g snyk
 npm install -g spire-of-babel
 npm install -g svgo
