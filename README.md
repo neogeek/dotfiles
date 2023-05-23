@@ -105,6 +105,7 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [gpg](https://help.github.com/categories/gpg/)
 - [hub](https://hub.github.com/)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
+- [redis](https://redis.io/)
 - [shellcheck](https://github.com/koalaman/shellcheck)
 
 ```bash

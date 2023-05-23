@@ -30,6 +30,7 @@ brewinstallpackage "git-lfs"
 brewinstallpackage "hub"
 brewinstallpackage "gh"
 brewinstallpackage "imagemagick"
+brewinstallpackage "redis"
 brewinstallpackage "shellcheck"
 
 brew cleanup --prune-prefix
