@@ -6,7 +6,8 @@ if ! brew -v &>/dev/null; then
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-    (echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+    # shellcheck disable=SC2016
+    (echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >>~/.zprofile
 
 fi
 
