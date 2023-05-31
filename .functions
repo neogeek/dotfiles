@@ -94,6 +94,19 @@ rhash() {
     echo -n "${HASH}" | pbcopy
 }
 
+# Setup Godot Project with .gitignore
+setupgodot() {
+    git init
+    curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Godot.gitignore
+    echo "# Custom
+
+.idea/
+" >>.gitignore
+    curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
+    git add .
+    git commit -m "Initial commit."
+}
+
 # Setup Unity Project with .gitignore
 setupunity() {
     git init

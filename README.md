@@ -283,6 +283,14 @@ Generate a random hash using `shasum -a 256`.
 $ rhash
 ```
 
+#### Setup Godot Project with .gitignore
+
+Initializes a new git project with a Godot specific [.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Godot.gitignore)
+
+```bash
+$ setupgodot
+```
+
 #### Setup Unity Project with .gitignore
 
 Initializes a new git project with a Unity specific [.gitignore](https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore)
