@@ -26,10 +26,9 @@ brewinstallpackage() {
 }
 
 brewinstallpackage "cloc"
+brewinstallpackage "diff-so-fancy"
 brewinstallpackage "git"
 brewinstallpackage "git-lfs"
-brewinstallpackage "hub"
-brewinstallpackage "gh"
 brewinstallpackage "imagemagick"
 brewinstallpackage "redis"
 brewinstallpackage "shellcheck"
