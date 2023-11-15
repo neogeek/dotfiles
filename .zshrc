@@ -39,3 +39,7 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
