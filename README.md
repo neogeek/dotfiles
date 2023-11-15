@@ -220,14 +220,6 @@ Hard reset a git repo, maintaining the remote git URL.
 $ gitplease
 ```
 
-#### plasticplease
-
-Delete all untracked files in a plasticscm repo.
-
-```bash
-$ plasticplease
-```
-
 #### portplease
 
 Shutdown process associated with port

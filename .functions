@@ -43,19 +43,6 @@ gitplease() {
     esac
 }
 
-# Delete all untracked files in a plasticscm repo
-plasticplease() {
-    printf "Whoa there! Are you sure? (y/n)? "
-
-    read choice
-
-    case "${choice}" in
-    y | Y)
-        cm status --ignored --cutignored --compact --short | while read FILE; do rm -rf $FILE; done
-        ;;
-    esac
-}
-
 # Shutdown process associated with port
 portplease() {
     PORT=$1
