@@ -5,7 +5,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   brew
   bundler
-  common-aliases
+  # common-aliases
   docker
   encode64
   extract
