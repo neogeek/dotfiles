@@ -136,7 +136,6 @@ $ brew.sh
 - [notion](https://notion.so/)
 - [obs](https://obsproject.com/)
 - [parsec](https://parsec.app/)
-- [plasticscm-cloud-edition](https://www.plasticscm.com/)
 - [postico](https://eggerapps.at/postico/)
 - [rotato](https://www.rotato.app/)
 - [signal](https://signal.org/en/)

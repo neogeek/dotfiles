@@ -32,7 +32,6 @@ brew install --cask ngrok
 brew install --cask notion
 brew install --cask obs
 brew install --cask parsec
-brew install --cask plasticscm-cloud-edition
 brew install --cask postico
 brew install --cask rotato
 brew install --cask signal
