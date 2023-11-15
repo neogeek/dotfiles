@@ -24,10 +24,10 @@ fi
 source ~/.nvm/nvm.sh
 
 nvm install 16
-nvm install 17
 nvm install 18
+nvm install 20
 
-nvm alias default 18
+nvm alias default 20
 
 npm config set save=true
 npm config set save-exact=true
