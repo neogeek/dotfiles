@@ -1,12 +1,12 @@
 #!/bin/bash
 
-for dir in {~/.npm,/usr/local/bin,/usr/local/lib/node_modules}; do
+for DIR in {~/.npm,/usr/local/bin,/usr/local/lib/node_modules}; do
 
-    if [ ! -w "$dir" ]; then
+    if [[ -d "${DIR}" && ! -w "${DIR}" ]]; then
 
-        echo "Fixing file permissions on $dir"
+        echo "Fixing file permissions on ${DIR}"
 
-        sudo chown -R "$(whoami)" "$dir"
+        sudo chown -R "$(whoami)" "${DIR}"
 
     fi
 
@@ -16,16 +16,18 @@ if [ ! -a ~/.nvm/nvm.sh ]; then
 
     echo "Installing NVM"
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.5/install.sh | bash
 
 fi
 
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 
-nvm install 16
-nvm install 18
-nvm install 20
+PREVIOUS_DEFAULT_VERSION=$(node --version)
+
+nvm install 16 --lts
+nvm install 18 --lts
+nvm install 20 --latest-npm
 
 nvm alias default 20
 
@@ -34,13 +36,21 @@ npm config set save-exact=true
 npm config set progress=true
 npm config set legacy-peer-deps=true
 
-npm -g install npm@latest
+if [[ "${PREVIOUS_DEFAULT_VERSION}" != $(node --version) ]]; then
+    npm install -g get-unity
+    npm install -g nodemon
+    npm install -g npm-check-updates
+    npm install -g pm2
+    npm install -g snyk
+    npm install -g spire-of-babel
+    npm install -g svgo
+    npm install -g unity-check-updates
+fi
 
-npm install -g get-unity
-npm install -g nodemon
-npm install -g npm-check-updates
-npm install -g pm2
-npm install -g snyk
-npm install -g spire-of-babel
-npm install -g svgo
-npm install -g unity-check-updates
+if [[ $(cat ~/.bashrc) != *"begin-npm-completion"* ]]; then
+    npm completion >>~/.bashrc
+fi
+
+if [[ $(cat ~/.zshrc) != *"begin-npm-completion"* ]]; then
+    npm completion >>~/.zshrc
+fi
