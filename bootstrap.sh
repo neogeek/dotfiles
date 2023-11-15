@@ -3,41 +3,30 @@
 # shellcheck disable=SC2128
 DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
-# Install Git Plugins
+if ! zsh -v &>/dev/null; then
+    # Install ohmyzsh
 
-echo -n "Installing (1) git plugins ... "
+    echo -n "Installing ohmyzsh ... "
 
-mkdir -p "${DIR}/vendor/"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o "${DIR}/vendor/diff-so-fancy" &>/dev/null
-chmod +x "${DIR}/vendor/diff-so-fancy"
+    [ -f /usr/local/share/zsh ] && chmod 755 /usr/local/share/zsh
+    [ -f /usr/local/share/zsh/site-functionsh ] && chmod 755 /usr/local/share/zsh/site-functions
 
-echo "Done"
+    echo "Done"
 
-# Install ohmyzsh
+    echo -n "Installing @neogeek's dotfiles to ~/.zshrc ... "
 
-echo -n "Installing ohmyzsh ... "
+    if [ -f ~/.zshrc ]; then
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        mv ~/.zshrc ~/.zshrc-backup
 
-chmod 755 /usr/local/share/zsh
-chmod 755 /usr/local/share/zsh/site-functions
+    fi
 
-echo "Done"
+    cp "${DIR}/.zshrc" ~/.zshrc
 
-# Update .zshrc
+    echo "Done"
 
-echo -n "Installing @neogeek's dotfiles to ~/.zshrc ... "
-
-if [ -f ~/.zshrc ]; then
-
-    mv ~/.zshrc ~/.zshrc-backup
-
+    # shellcheck disable=SC1090
+    zsh ~/.zshrc
 fi
-
-cp "${DIR}/.zshrc" ~/.zshrc
-
-echo "Done"
-
-# shellcheck disable=SC1090
-zsh ~/.zshrc
