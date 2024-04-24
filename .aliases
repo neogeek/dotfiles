@@ -4,7 +4,7 @@
 alias ls="command ls -lG"
 
 # Python Server (https://docs.python.org/3/library/http.server.html
-alias pyserver="python3 -m http.server"
+alias pyserver="python3 -m http.server --bind 127.0.0.1"
 
 # Delete node_modules/ and reinstall packages
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
