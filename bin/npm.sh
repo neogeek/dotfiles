@@ -34,7 +34,6 @@ nvm alias default 20
 npm config set save=true
 npm config set save-exact=true
 npm config set progress=true
-npm config set legacy-peer-deps=true
 
 if [[ "${PREVIOUS_DEFAULT_VERSION}" != $(node --version) ]]; then
     npm install -g get-unity
