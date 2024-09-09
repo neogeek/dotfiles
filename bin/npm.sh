@@ -23,9 +23,8 @@ source ~/.nvm/nvm.sh
 
 PREVIOUS_DEFAULT_VERSION=$(node --version)
 
-nvm install 16 --lts
-nvm install 18 --lts
 nvm install 20 --latest-npm
+nvm install 22 --latest-npm
 
 nvm alias default 20
 
