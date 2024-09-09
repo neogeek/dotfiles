@@ -13,11 +13,9 @@ for DIR in {~/.npm,/usr/local/bin,/usr/local/lib/node_modules}; do
 done
 
 if [ ! -a ~/.nvm/nvm.sh ]; then
-
     echo "Installing NVM"
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.5/install.sh | bash
-
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 fi
 
 # shellcheck disable=SC1090
