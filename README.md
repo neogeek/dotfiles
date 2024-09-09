@@ -169,8 +169,6 @@ You can install and update [npm](https://www.npmjs.com) listed dependencies usin
 - [nodemon](https://github.com/remy/nodemon)
 - [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
 - [pm2](https://pm2.io/)
-- [snyk](https://snyk.io/)
-- [spire-of-babel](https://github.com/neogeek/spire-of-babel)
 - [svgo](https://github.com/svg/svgo)
 - [unity-check-updates](https://github.com/neogeek/unity-check-updates)
 
