@@ -77,7 +77,11 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist &>/dev/null
 ## Remove Shadow from OS X Screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
+## Show the App Switcher / Command+Tab on all displays
+defaults write com.apple.dock appswitcher-all-displays -bool true
+
 killall SystemUIServer
+killall Dock
 
 ## Change Mouse Speed
 defaults write -g com.apple.mouse.scaling 5.0
