@@ -36,6 +36,7 @@ brew install --cask sublime-text
 brew install --cask tunnelbear
 brew install --cask unity-hub
 brew install --cask visual-studio-code
+brew install --cask zed
 brew install --cask zoom
 
 brew cleanup

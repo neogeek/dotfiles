@@ -140,6 +140,7 @@ $ brew.sh
 - [tunnelbear](https://www.tunnelbear.com/)
 - [unity-hub](https://blogs.unity3d.com/2018/01/24/streamline-your-workflow-introducing-unity-hub-beta/)
 - [visual-studio-code](https://code.visualstudio.com/)
+- [zed](https://zed.dev/)
 - [zoom](https://zoom.us/)
 
 ```bash
