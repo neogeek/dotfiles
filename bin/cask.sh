@@ -8,8 +8,6 @@ if ! brew -v &>/dev/null; then
 
 fi
 
-brew tap homebrew/cask-versions
-
 brew install --cask 1password
 brew install --cask alfred
 brew install --cask android-platform-tools
