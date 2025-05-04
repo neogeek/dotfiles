@@ -3,7 +3,7 @@
 # shellcheck disable=SC2128
 DIR=$(cd "$(dirname "${BASH_SOURCE}")" && pwd)
 
-if ! zsh -v &>/dev/null; then
+if ! omz -v &>/dev/null; then
     # Install ohmyzsh
 
     echo -n "Installing ohmyzsh ... "
