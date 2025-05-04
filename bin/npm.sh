@@ -41,8 +41,8 @@ if [[ "${PREVIOUS_DEFAULT_VERSION}" != $(node --version) ]]; then
     npm install -g unity-check-updates
 fi
 
-if [[ $(cat ~/.bashrc) != *"begin-npm-completion"* ]]; then
-    npm completion >>~/.bashrc
+if [[ $(cat ~/.zshrc) != *"begin-npm-completion"* ]]; then
+    npm completion >>~/.zshrc
 fi
 
 if [[ $(cat ~/.zshrc) != *"begin-npm-completion"* ]]; then
