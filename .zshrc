@@ -26,7 +26,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-eval "$(rbenv init -)"
+if rbenv -v &>/dev/null; then
+  eval "$(rbenv init -)"
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
@@ -35,10 +37,15 @@ export NVM_DIR="$HOME/.nvm"
 source ~/git/github/dotfiles/.bash_profile #dotfiles
 
 export PATH="$PATH:/usr/local/sbin"
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+if [ -d "/Applications/Postgres.app" ]; then
+  export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+fi
+
+if [ -d "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]; then
+  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+  source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+fi
 
 if command -v ngrok &>/dev/null; then
   eval "$(ngrok completion)"
