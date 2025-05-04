@@ -147,7 +147,7 @@
 	<key>HotkeyTermAnimationDuration</key>
 	<real>0.10000000149011612</real>
 	<key>IRMemory</key>
-	<integer>4</integer>
+	<integer>0</integer>
 	<key>LeftOption</key>
 	<integer>2</integer>
 	<key>New Bookmarks</key>
