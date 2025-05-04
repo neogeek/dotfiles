@@ -134,6 +134,7 @@ $ brew.sh
 - [notion](https://notion.so/)
 - [obs](https://obsproject.com/)
 - [postico](https://eggerapps.at/postico/)
+- [slack](https://slack.com/)
 - [spotify](https://www.spotify.com/us/)
 - [steam](http://store.steampowered.com/)
 - [sublime-merge](https://www.sublimemerge.com/)

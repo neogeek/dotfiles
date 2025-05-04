@@ -30,6 +30,7 @@ brew install --cask ngrok
 brew install --cask notion
 brew install --cask obs
 brew install --cask postico
+brew install --cask slack
 brew install --cask spotify
 brew install --cask steam
 brew install --cask sublime-merge
