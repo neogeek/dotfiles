@@ -16,9 +16,12 @@ brew install --cask android-platform-tools
 brew install --cask discord
 brew install --cask dropbox
 brew install --cask epic-games
+brew install --cask figma
 brew install --cask fontbase
 brew install --cask fork
 brew install --cask github
+brew install --cask godot
+brew install --cask godot-mono
 brew install --cask google-chrome
 brew install --cask google-cloud-sdk
 brew install --cask imageoptim
