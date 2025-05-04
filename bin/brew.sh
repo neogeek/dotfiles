@@ -31,7 +31,6 @@ brewinstallpackage "git-lfs"
 brewinstallpackage "git"
 brewinstallpackage "imagemagick"
 brewinstallpackage "llvm"
-brewinstallpackage "redis"
 brewinstallpackage "shellcheck"
 
 ln -s "$(brew --prefix llvm)/bin/clang-format" "/usr/local/bin/clang-format"
