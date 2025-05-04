@@ -38,11 +38,11 @@ source ~/git/github/dotfiles/.bash_profile #dotfiles
 
 export PATH="$PATH:/usr/local/sbin"
 
-if [ -d "/Applications/Postgres.app" ]; then
+if brew -v &>/dev/null && [ -d "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]; then
   export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 fi
 
-if [ -d "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]; then
+if brew -v &>/dev/null && [ -d "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]; then
   source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
   source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 fi
