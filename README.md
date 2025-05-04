@@ -129,6 +129,7 @@ $ brew.sh
 - [imageoptim](https://imageoptim.com/mac)
 - [iterm2](https://www.iterm2.com/)
 - [jetbrains-toolbox](https://www.jetbrains.com/toolbox-app/)
+- [keycastr](https://github.com/keycastr/keycastr)
 - [ngrok](https://ngrok.com/)
 - [notion](https://notion.so/)
 - [obs](https://obsproject.com/)

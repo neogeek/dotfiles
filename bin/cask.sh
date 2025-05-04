@@ -25,6 +25,7 @@ brew install --cask google-cloud-sdk
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
+brew install --cask keycastr
 brew install --cask ngrok
 brew install --cask notion
 brew install --cask obs
