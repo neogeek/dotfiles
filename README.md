@@ -98,6 +98,7 @@ $ git sub
 
 You can install and update [brew](http://brew.sh) and listed dependencies using the following command.
 
+- [act](https://github.com/nektos/act)
 - [cloc](https://github.com/AlDanial/cloc/)
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 - [git](https://git-scm.com/)

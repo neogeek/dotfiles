@@ -25,6 +25,7 @@ brewinstallpackage() {
 
 }
 
+brewinstallpackage "act"
 brewinstallpackage "cloc"
 brewinstallpackage "diff-so-fancy"
 brewinstallpackage "git-lfs"
