@@ -43,4 +43,6 @@ brew install --cask visual-studio-code
 brew install --cask zed
 brew install --cask zoom
 
+brew upgrade --cask --greedy
+
 brew cleanup
