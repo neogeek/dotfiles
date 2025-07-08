@@ -212,6 +212,14 @@ Make a new React.js project using the repo located at <https://github.com/neogee
 $ create-reactjs-starter-kit <name>
 ```
 
+#### create-unity-project
+
+Make a new Unity project by manually creating the required files for a project to open in Unity as well as a `.gitignore` and `.editorconfig`.
+
+```bash
+$ create-unity-project <name>
+```
+
 #### gitplease
 
 Hard reset a git repo, maintaining the remote git URL.

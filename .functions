@@ -25,6 +25,23 @@ create-reactjs-starter-kit() {
     npm install
 }
 
+# Create Unity Project
+create-unity-project() {
+    mkdir -p "${1}"
+    mkdir -p "${1}/Assets"
+    mkdir -p "${1}/ProjectSettings"
+    cd "${1}"
+    git init
+    curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
+    curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
+    echo "# Custom
+
+.idea/
+" >>.gitignore
+    git add .
+    git commit -m "Initial commit."
+}
+
 # Reset git repo
 gitplease() {
     printf "Whoa there! Are you sure? (y/n)? "
