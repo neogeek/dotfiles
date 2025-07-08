@@ -34,8 +34,10 @@ brewinstallpackage "imagemagick"
 brewinstallpackage "llvm"
 brewinstallpackage "shellcheck"
 
-ln -s "$(brew --prefix llvm)/bin/clang-format" "/usr/local/bin/clang-format"
-ln -s "$(brew --prefix llvm)/bin/clang-tidy" "/usr/local/bin/clang-tidy"
-ln -s "$(brew --prefix llvm)/bin/clang-apply-replacements" "/usr/local/bin/clang-apply-replacements"
+sudo mkdir -p /usr/local/bin/
+
+sudo ln -s "$(brew --prefix llvm)/bin/clang-format" "/usr/local/bin/clang-format"
+sudo ln -s "$(brew --prefix llvm)/bin/clang-tidy" "/usr/local/bin/clang-tidy"
+sudo ln -s "$(brew --prefix llvm)/bin/clang-apply-replacements" "/usr/local/bin/clang-apply-replacements"
 
 brew cleanup --prune-prefix
