@@ -18,11 +18,9 @@ brew update && brew doctor
 brew upgrade
 
 brewinstallpackage() {
-
     if ! brew ls --versions "${1}" >/dev/null; then
         brew install "${1}"
     fi
-
 }
 
 brewinstallpackage "act"
