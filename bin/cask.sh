@@ -12,6 +12,7 @@ brew install --cask 1password
 brew install --cask alfred
 brew install --cask android-platform-tools
 brew install --cask audacity
+brew install --cask blender
 brew install --cask discord
 brew install --cask docker
 brew install --cask dropbox

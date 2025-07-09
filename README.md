@@ -117,6 +117,7 @@ $ brew.sh
 - [alfred](https://www.alfredapp.com/)
 - [android-platform-tools](https://developer.android.com/studio/releases/platform-tools)
 - [audacity](https://www.audacityteam.org/)
+- [blender](https://www.blender.org/)
 - [discord](https://discordapp.com/)
 - [docker](https://docs.docker.com/desktop/)
 - [dropbox](https://www.dropbox.com/)
