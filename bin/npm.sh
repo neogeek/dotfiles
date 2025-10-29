@@ -12,7 +12,7 @@ for DIR in {~/.npm,/usr/local/bin,/usr/local/lib/node_modules}; do
 
 done
 
-if [ ! -a ~/.nvm/nvm.sh ]; then
+if [ ! -e ~/.nvm/nvm.sh ]; then
     echo "Installing NVM"
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -20,8 +20,6 @@ fi
 
 # shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
-
-PREVIOUS_DEFAULT_VERSION=$(node --version)
 
 nvm install 22 --latest-npm
 nvm install 24 --latest-npm
@@ -39,10 +37,6 @@ npm install -g npm-check-updates
 npm install -g pm2
 npm install -g svgo
 npm install -g unity-check-updates
-
-if [[ $(cat ~/.zshrc) != *"begin-npm-completion"* ]]; then
-    npm completion >>~/.zshrc
-fi
 
 if [[ $(cat ~/.zshrc) != *"begin-npm-completion"* ]]; then
     npm completion >>~/.zshrc
