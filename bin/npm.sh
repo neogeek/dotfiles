@@ -26,10 +26,14 @@ nvm install 24 --latest-npm
 
 nvm alias default 22
 
+nvm use 22
+
 npm config set save=true
 npm config set save-exact=true
 npm config set progress=true
 npm config set ignore-scripts=true
+
+npm install -g npm@latest
 
 npm install -g get-unity
 npm install -g nodemon
