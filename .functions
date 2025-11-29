@@ -34,10 +34,8 @@ create-unity-project() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
     curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
-    echo "# Custom
-
-.idea/
-" >>.gitignore
+    echo "\n# Custom
+.idea/" >>.gitignore
     git add .
     git commit -m "Initial commit."
 }
@@ -102,10 +100,8 @@ rhash() {
 setupgodot() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Godot.gitignore
-    echo "# Custom
-
-.idea/
-" >>.gitignore
+    echo "\n# Custom
+.idea/" >>.gitignore
     curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
     git add .
     git commit -m "Initial commit."
@@ -115,10 +111,8 @@ setupgodot() {
 setupunity() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Unity.gitignore
-    echo "# Custom
-
-.idea/
-" >>.gitignore
+    echo "\n# Custom
+.idea/" >>.gitignore
     curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
     git add .
     git commit -m "Initial commit."
@@ -128,10 +122,8 @@ setupunity() {
 setupunreal() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/UnrealEngine.gitignore
-    echo "# Custom
-
-.idea/
-" >>.gitignore
+    echo "\n# Custom
+.idea/" >>.gitignore
     git add .
     git commit -m "Initial commit."
 }
