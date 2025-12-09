@@ -101,10 +101,12 @@ You can install and update [brew](http://brew.sh) and listed dependencies using 
 - [act](https://github.com/nektos/act)
 - [cloc](https://github.com/AlDanial/cloc/)
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
-- [git](https://git-scm.com/)
 - [git-lfs](https://git-lfs.github.com/)
+- [git](https://git-scm.com/)
 - [gpg](https://help.github.com/categories/gpg/)
 - [imagemagick](http://www.imagemagick.org/script/index.php)
+- [just](https://github.com/casey/just)
+- [llvm](https://llvm.org/)
 - [shellcheck](https://github.com/koalaman/shellcheck)
 
 ```bash

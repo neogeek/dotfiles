@@ -29,6 +29,7 @@ brewinstallpackage "diff-so-fancy"
 brewinstallpackage "git-lfs"
 brewinstallpackage "git"
 brewinstallpackage "imagemagick"
+brewinstallpackage "just"
 brewinstallpackage "llvm"
 brewinstallpackage "shellcheck"
 
