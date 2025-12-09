@@ -24,9 +24,9 @@ source ~/.nvm/nvm.sh
 nvm install 22 --latest-npm
 nvm install 24 --latest-npm
 
-nvm alias default 22
+nvm alias default 24
 
-nvm use 22
+nvm use 24
 
 npm config set save=true
 npm config set save-exact=true
