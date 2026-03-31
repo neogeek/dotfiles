@@ -32,6 +32,7 @@ npm config set save=true
 npm config set save-exact=true
 npm config set progress=true
 npm config set ignore-scripts=true
+npm config set min-release-age 3
 
 npm install -g npm@latest
 
