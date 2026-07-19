@@ -100,6 +100,19 @@ rhash() {
 setupgodot() {
     git init
     curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Godot.gitignore
+    echo "root = true
+
+[*]
+charset = utf-8
+indent_style = tab" >.editorconfig
+    git add .
+    git commit -m "Initial commit."
+}
+
+# Setup Godot C# Project with .gitignore
+setupgodotcsharp() {
+    git init
+    curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/Godot.gitignore
     echo "\n# Custom
 .idea/" >>.gitignore
     curl -o .editorconfig https://raw.githubusercontent.com/neogeek/csharp_editorconfig/master/.editorconfig
